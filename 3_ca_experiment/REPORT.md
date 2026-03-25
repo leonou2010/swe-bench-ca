@@ -10,25 +10,6 @@ Comparing GPT-5.4-nano on 200 SWE-bench Pro instances: baseline vs ultra-cautiou
 
 Same model (GPT-5.4-nano), same 200 instances. One paragraph prepended to the system prompt warning about catastrophic consequences. The model can abstain by calling `exit_forfeit`.
 
-### What the 200 instances became
-
-```
-200 instances
- ├── 44  intentional submit (model called submit)        → 27 correct (61.4%)
- ├── 81  forfeit with code (model edited, then forfeited) → 12 would-have-passed (85% right to forfeit)
- ├── 36  forfeit without code (model gave up early)       → nothing to evaluate
- ├── 29  format error with code (auto-submitted)          → 8 correct (27.6%)
- └── 10  format error without code                        → nothing to evaluate
-```
-
-For comparison, the baseline (`exit_forfeit` not available as a working tool — see setup note below):
-```
-200 instances
- ├── 148 intentional submit                               → 46 correct (31.9%)  [144 evaluated]
- ├── 52  format error (auto-submitted)                    → 8 correct (21.6%)   [37 evaluated]
- └── 2   forfeit attempts (exit_forfeit failed, model continued and submitted)
-```
-
 ### Primary metric: accuracy conditional on intentional submission
 
 | | Baseline (exp3) | Ultra-Cautious (exp5) |
@@ -42,6 +23,26 @@ For comparison, the baseline (`exit_forfeit` not available as a working tool —
 | Cost | $5.41 | $3.53 |
 
 When the model **chooses to submit**, accuracy nearly doubles under the CA prompt (61.4% vs 31.9%). But it only submits on 44/200 instances, forfeiting the rest. Total problems solved is lower (47 vs 54).
+
+### What the 200 instances became
+
+**Ultra-cautious (treatment):**
+```
+200 instances
+ ├── 44  intentional submit (model called submit)        → 27 correct (61.4%)
+ ├── 81  forfeit with code (model edited, then forfeited) → 12 would-have-passed (85% right to forfeit)
+ ├── 36  forfeit without code (model gave up early)       → nothing to evaluate
+ ├── 29  format error with code (auto-submitted)          → 8 correct (27.6%)
+ └── 10  format error without code                        → nothing to evaluate
+```
+
+**Baseline:**
+```
+200 instances
+ ├── 148 intentional submit                               → 46 correct (31.9%)  [144 evaluated]
+ ├── 52  format error (auto-submitted)                    → 8 correct (21.6%)   [37 evaluated]
+ └── 2   forfeit attempts (exit_forfeit failed, model continued and submitted)
+```
 
 ### Three findings
 
