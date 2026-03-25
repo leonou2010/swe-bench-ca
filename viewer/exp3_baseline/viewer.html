@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SWE-bench Pro Baseline — Trajectory Viewer</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; background: #0d1117; color: #c9d1d9; }
+.header { background: #161b22; padding: 16px 24px; border-bottom: 1px solid #30363d; }
+.header h1 { font-size: 20px; color: #58a6ff; }
+.header .stats { color: #8b949e; font-size: 14px; margin-top: 4px; }
+.container { display: flex; height: calc(100vh - 80px); }
+.sidebar { width: 380px; min-width: 380px; overflow-y: auto; border-right: 1px solid #30363d; background: #0d1117; }
+.filters { padding: 12px; border-bottom: 1px solid #30363d; display: flex; gap: 8px; flex-wrap: wrap; }
+.filters select, .filters input { background: #21262d; color: #c9d1d9; border: 1px solid #30363d; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+.filters input { width: 140px; }
+.instance-item { padding: 10px 14px; border-bottom: 1px solid #21262d; cursor: pointer; font-size: 13px; }
+.instance-item:hover { background: #161b22; }
+.instance-item.active { background: #1f6feb22; border-left: 3px solid #58a6ff; }
+.instance-item .repo { color: #8b949e; font-size: 11px; }
+.instance-item .meta { display: flex; gap: 12px; margin-top: 4px; font-size: 11px; color: #8b949e; }
+.badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+.badge.pass { background: #238636; color: #fff; }
+.badge.fail { background: #da3633; color: #fff; }
+.badge.unknown { background: #30363d; color: #8b949e; }
+.main { flex: 1; overflow-y: auto; padding: 20px; }
+.step { margin-bottom: 16px; border: 1px solid #21262d; border-radius: 8px; overflow: hidden; }
+.step-header { display: flex; align-items: center; gap: 10px; padding: 8px 14px; background: #161b22; cursor: pointer; font-size: 13px; }
+.step-header:hover { background: #1c2128; }
+.step-num { color: #58a6ff; font-weight: 600; min-width: 50px; }
+.step-cat { padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+.cat-read { background: #1f6feb33; color: #58a6ff; }
+.cat-edit { background: #f0883e33; color: #f0883e; }
+.cat-search { background: #a371f733; color: #a371f7; }
+.cat-test { background: #3fb95033; color: #3fb950; }
+.cat-submit { background: #da363333; color: #f85149; }
+.cat-bash { background: #30363d; color: #8b949e; }
+.cat-script { background: #d2a8ff33; color: #d2a8ff; }
+.step-time { color: #8b949e; font-size: 11px; margin-left: auto; }
+.step-body { display: none; padding: 12px 14px; font-size: 12px; }
+.step-body.open { display: block; }
+.step-section { margin-bottom: 10px; }
+.step-section-label { color: #58a6ff; font-size: 11px; font-weight: 600; margin-bottom: 4px; text-transform: uppercase; }
+.step-section pre { background: #161b22; padding: 8px; border-radius: 4px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; font-size: 11px; line-height: 1.5; max-height: 500px; overflow-y: auto; }
+.thought-pre { border-left: 3px solid #58a6ff; }
+.action-pre { border-left: 3px solid #f0883e; }
+.obs-pre { border-left: 3px solid #3fb950; }
+.instance-meta { display: flex; flex-wrap: wrap; gap: 16px; color: #8b949e; font-size: 12px; margin-bottom: 16px; padding: 10px 14px; background: #161b22; border-radius: 8px; border: 1px solid #21262d; }
+.instance-meta span { display: flex; align-items: center; gap: 4px; }
+.tab-bar { display: flex; gap: 0; margin-bottom: 16px; border-bottom: 1px solid #30363d; }
+.tab { padding: 8px 16px; cursor: pointer; font-size: 13px; color: #8b949e; border-bottom: 2px solid transparent; }
+.tab:hover { color: #c9d1d9; }
+.tab.active { color: #58a6ff; border-bottom-color: #58a6ff; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+.no-select { color: #8b949e; padding: 40px; text-align: center; }
+.loading { color: #58a6ff; padding: 40px; text-align: center; font-size: 14px; }
+.patch-line-add { color: #3fb950; }
+.patch-line-del { color: #f85149; }
+.patch-line-hdr { color: #a371f7; }
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>exp3: GPT-5.4-nano Baseline</h1>
+    <div class="stats" id="headerStats">Loading...</div>
+</div>
+<div class="container">
+    <div class="sidebar">
+        <div class="filters">
+            <select id="filterStatus" onchange="filterInstances()">
+                <option value="all">All</option>
+                <option value="pass">Passed</option>
+                <option value="fail">Failed</option>
+            </select>
+            <select id="filterRepo" onchange="filterInstances()">
+                <option value="all">All repos</option>
+            </select>
+            <input type="text" id="filterSearch" placeholder="Search..." oninput="filterInstances()">
+            <select id="sortBy" onchange="filterInstances()">
+                <option value="steps">Sort: Steps</option>
+                <option value="steps_desc">Steps (desc)</option>
+                <option value="time">Time</option>
+                <option value="repo">Repo</option>
+            </select>
+        </div>
+        <div id="instanceList"></div>
+    </div>
+    <div class="main" id="mainPanel">
+        <div class="no-select">Select an instance from the sidebar to view its trajectory</div>
+    </div>
+</div>
+<script>
+let INDEX = [];
+let selectedId = null;
+const cache = {};
+
+async function init() {
+    const resp = await fetch('data/index.json');
+    INDEX = await resp.json();
+
+    const total = INDEX.length;
+    const resolved = INDEX.filter(d => d.resolved === true).length;
+    const evaluated = INDEX.filter(d => d.resolved !== null).length;
+    const avgSteps = (INDEX.reduce((s, d) => s + d.num_steps, 0) / total).toFixed(1);
+    document.getElementById('headerStats').textContent =
+        `${total} instances | ${resolved}/${evaluated} resolved (${(100*resolved/evaluated).toFixed(1)}%) | avg ${avgSteps} steps`;
+
+    const repos = [...new Set(INDEX.map(d => d.repo))].sort();
+    const repoSelect = document.getElementById('filterRepo');
+    repos.forEach(r => {
+        const opt = document.createElement('option');
+        opt.value = r; opt.textContent = r;
+        repoSelect.appendChild(opt);
+    });
+
+    filterInstances();
+}
+
+function filterInstances() {
+    const status = document.getElementById('filterStatus').value;
+    const repo = document.getElementById('filterRepo').value;
+    const search = document.getElementById('filterSearch').value.toLowerCase();
+    const sort = document.getElementById('sortBy').value;
+
+    let filtered = [...INDEX];
+    if (status === 'pass') filtered = filtered.filter(d => d.resolved === true);
+    if (status === 'fail') filtered = filtered.filter(d => d.resolved === false);
+    if (repo !== 'all') filtered = filtered.filter(d => d.repo === repo);
+    if (search) filtered = filtered.filter(d => d.id.toLowerCase().includes(search));
+
+    if (sort === 'steps') filtered.sort((a, b) => a.num_steps - b.num_steps);
+    if (sort === 'steps_desc') filtered.sort((a, b) => b.num_steps - a.num_steps);
+    if (sort === 'time') filtered.sort((a, b) => b.total_time - a.total_time);
+    if (sort === 'repo') filtered.sort((a, b) => a.repo.localeCompare(b.repo));
+
+    renderList(filtered);
+}
+
+function renderList(items) {
+    const el = document.getElementById('instanceList');
+    el.innerHTML = items.map(d => `
+        <div class="instance-item ${d.id === selectedId ? 'active' : ''}" onclick="selectInstance('${d.file}', '${d.id}')">
+            <div>
+                <span class="badge ${d.resolved === true ? 'pass' : d.resolved === false ? 'fail' : 'unknown'}">
+                    ${d.resolved === true ? 'PASS' : d.resolved === false ? 'FAIL' : '?'}
+                </span>
+                ${d.id.substring(9, 60)}
+            </div>
+            <div class="repo">${d.repo}</div>
+            <div class="meta">
+                <span>${d.num_steps} steps</span>
+                <span>${d.total_time}s exec</span>
+            </div>
+        </div>
+    `).join('');
+}
+
+async function selectInstance(file, id) {
+    selectedId = id;
+    const panel = document.getElementById('mainPanel');
+    panel.innerHTML = '<div class="loading">Loading trajectory...</div>';
+    filterInstances();
+
+    let d;
+    if (cache[file]) {
+        d = cache[file];
+    } else {
+        const resp = await fetch('data/' + file);
+        d = await resp.json();
+        cache[file] = d;
+    }
+
+    const stepsHtml = d.steps.map(s => `
+        <div class="step">
+            <div class="step-header" onclick="this.nextElementSibling.classList.toggle('open')">
+                <span class="step-num">Step ${s.n}</span>
+                <span class="step-cat cat-${s.cat}">${s.cat}</span>
+                <span style="color:#c9d1d9;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">
+                    ${escHtml((s.t || s.a).substring(0, 100))}
+                </span>
+                <span class="step-time">${s.time}s</span>
+            </div>
+            <div class="step-body">
+                ${s.t ? `<div class="step-section"><div class="step-section-label">Thought</div><pre class="thought-pre">${escHtml(s.t)}</pre></div>` : ''}
+                <div class="step-section"><div class="step-section-label">Action</div><pre class="action-pre">${escHtml(s.a)}</pre></div>
+                <div class="step-section"><div class="step-section-label">Observation</div><pre class="obs-pre">${escHtml(s.o)}</pre></div>
+                ${s.raw && s.raw.length > 0 ? `<div class="step-section"><div class="step-section-label" style="color:#d2a8ff">Raw Generation</div><pre style="background:#161b22;padding:8px;border-radius:4px;white-space:pre-wrap;word-wrap:break-word;font-size:11px;line-height:1.5;max-height:500px;overflow-y:auto;border-left:3px solid #d2a8ff">${s.raw.map(r => {
+                    if (r.warning) return '<span style="color:#f85149">' + escHtml(r.warning) + '</span>';
+                    let out = '';
+                    if (r.content) out += 'Content: ' + escHtml(r.content) + '\n';
+                    if (r.tool_calls && r.tool_calls.length > 0) {
+                        out += 'Tool calls (' + r.tool_calls.length + '):\n';
+                        r.tool_calls.forEach(tc => { out += '  ' + tc.name + ': ' + escHtml(tc.args) + '\n'; });
+                    }
+                    if (r.reasoning_tokens > 0) out += 'Reasoning tokens: ' + r.reasoning_tokens + '\n';
+                    return out || '(empty response)';
+                }).join('\n')}</pre></div>` : ''}
+            </div>
+        </div>
+    `).join('');
+
+    const patchHtml = colorPatch(d.patch || 'No patch produced');
+
+    panel.innerHTML = `
+        <h2 style="margin-bottom:8px">
+            <span class="badge ${d.resolved === true ? 'pass' : d.resolved === false ? 'fail' : 'unknown'}">${d.resolved === true ? 'PASS' : d.resolved === false ? 'FAIL' : '?'}</span>
+            ${d.id.substring(9)}
+        </h2>
+        <div class="instance-meta">
+            <span>${d.repo}</span>
+            <span>${d.num_steps} steps</span>
+            <span>${d.total_time}s exec</span>
+            <span>${d.api_calls} API calls</span>
+            <span>${(d.tokens_sent/1000).toFixed(0)}k tokens sent</span>
+            <span>${(d.tokens_received/1000).toFixed(1)}k tokens recv</span>
+            <span>exit: ${d.exit_status}</span>
+        </div>
+        <div class="tab-bar">
+            <div class="tab active" onclick="switchTab(this, 'tab-problem')">Problem</div>
+            <div class="tab" onclick="switchTab(this, 'tab-trajectory')">Trajectory (${d.num_steps})</div>
+            <div class="tab" onclick="switchTab(this, 'tab-patch')">Patch</div>
+        </div>
+        <div id="tab-problem" class="tab-content active">
+            <pre style="background:#161b22;padding:12px;border-radius:6px;white-space:pre-wrap;word-wrap:break-word;font-size:12px;line-height:1.6;max-height:none;overflow-y:auto;border-left:3px solid #f0883e">${escHtml(d.problem || 'No problem statement available')}</pre>
+        </div>
+        <div id="tab-trajectory" class="tab-content">
+            ${stepsHtml}
+        </div>
+        <div id="tab-patch" class="tab-content">
+            <pre style="background:#161b22;padding:12px;border-radius:6px;white-space:pre-wrap;word-wrap:break-word;font-size:12px;line-height:1.5;max-height:none;overflow-y:auto">${patchHtml}</pre>
+        </div>
+    `;
+    panel.scrollTop = 0;
+}
+
+function switchTab(tabEl, contentId) {
+    tabEl.parentElement.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tabEl.classList.add('active');
+    const panel = document.getElementById('mainPanel');
+    panel.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    document.getElementById(contentId).classList.add('active');
+}
+
+function escHtml(s) {
+    const div = document.createElement('div');
+    div.textContent = s;
+    return div.innerHTML;
+}
+
+function colorPatch(patch) {
+    return escHtml(patch).split('\n').map(line => {
+        if (line.startsWith('+') && !line.startsWith('+++'))
+            return `<span class="patch-line-add">${line}</span>`;
+        if (line.startsWith('-') && !line.startsWith('---'))
+            return `<span class="patch-line-del">${line}</span>`;
+        if (line.startsWith('@@'))
+            return `<span class="patch-line-hdr">${line}</span>`;
+        return line;
+    }).join('\n');
+}
+
+init();
+</script>
+</body>
+</html>

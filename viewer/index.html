@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>SWE-bench Pro Trajectory Viewers</title>
+<style>
+body { font-family: -apple-system, sans-serif; background: #0d1117; color: #c9d1d9; padding: 40px; }
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin: 16px 0; }
+h1 { color: #58a6ff; }
+</style>
+</head>
+<body>
+<h1>SWE-bench Pro — Trajectory Viewers</h1>
+<p>Click to browse individual instance trajectories with full model generation data.</p>
+<div class="card">
+<h2><a href="exp1_opus/viewer.html">exp1: Claude Opus 4.6 Baseline</a></h2>
+<p>200 instances | 62.9% accuracy | avg 73 steps</p>
+</div>
+<div class="card">
+<h2><a href="exp3_baseline/viewer.html">exp3: GPT-5.4-nano Baseline</a></h2>
+<p>200 instances | 27.0% accuracy | avg 40 steps</p>
+</div>
+<div class="card">
+<h2><a href="exp5_ultra_cautious/viewer.html">exp5: GPT-5.4-nano Ultra-Cautious (CA treatment)</a></h2>
+<p>200 instances | 23.5% accuracy | 58% forfeit rate | avg 28 steps</p>
+</div>
+</body>
+</html>

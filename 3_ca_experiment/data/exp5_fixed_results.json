@@ -1,0 +1,3617 @@
+{
+  "exp3": {
+    "intentional": [
+      {
+        "id": "instance_NodeBB__NodeBB-05f2236193f407cf8e2072757fbd6bb170bc13f0-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14975,
+        "steps": 62,
+        "exit_status": "submitted",
+        "tokens_sent": 2173931
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-0e07f3c9bace416cbab078a30eae972868c0a8a3-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 64300,
+        "steps": 72,
+        "exit_status": "submitted",
+        "tokens_sent": 4590711
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-1ea9481af6125ffd6da0592ed439aa62af0bca11-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3299,
+        "steps": 66,
+        "exit_status": "submitted",
+        "tokens_sent": 892227
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-22368b996ee0e5f11a5189b400b33af3cc8d925a-v4fbcfae8b15e4ce5d132c408bca69ebb9cf146ed",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 18484,
+        "steps": 16,
+        "exit_status": "submitted",
+        "tokens_sent": 454803
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-2657804c1fb6b84dc76ad3b18ecf061aaab5f29f-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 23882,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 1368044
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-51d8f3b195bddb13a13ddc0de110722774d9bb1b-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 51742,
+        "steps": 80,
+        "exit_status": "submitted",
+        "tokens_sent": 3752719
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-82562bec444940608052f3e4149e0c61ec80bf3f-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2060,
+        "steps": 18,
+        "exit_status": "submitted",
+        "tokens_sent": 537154
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-84dfda59e6a0e8a77240f939a7cb8757e6eaf945-v2c59007b1005cd5cd14cbb523ca5229db1fd2dd8",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 26378,
+        "steps": 71,
+        "exit_status": "submitted",
+        "tokens_sent": 1121476
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-9c576a0758690f45a6ca03b5884c601e473bf2c1-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 13261,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 664168
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-bad15643013ca15affe408b75eba9e47cc604bb2-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 16040,
+        "steps": 30,
+        "exit_status": "submitted",
+        "tokens_sent": 973336
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-cfc237c2b79d8c731bbfc6cadf977ed530bfd57a-v0495b863a912fbff5749c67e860612b91825407c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 23992,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 505528
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f083cd559d69c16481376868c8da65172729c0ca-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 104650,
+        "steps": 46,
+        "exit_status": "submitted",
+        "tokens_sent": 691551
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f1a80d48cc45877fcbadf34c2345dd9709722c7f-v4fbcfae8b15e4ce5d132c408bca69ebb9cf146ed",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 26331,
+        "steps": 42,
+        "exit_status": "submitted",
+        "tokens_sent": 1980645
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f48ed3658aab7be0f1165d4c1f89af48d7865189-v0495b863a912fbff5749c67e860612b91825407c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3931,
+        "steps": 36,
+        "exit_status": "submitted",
+        "tokens_sent": 1198591
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f9ce92df988db7c1ae55d9ef96d247d27478bc70-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 19280,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 1281393
+      },
+      {
+        "id": "instance_ansible__ansible-0fd88717c953b92ed8a50495d55e630eb5d59166-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3900,
+        "steps": 21,
+        "exit_status": "submitted",
+        "tokens_sent": 646611
+      },
+      {
+        "id": "instance_ansible__ansible-34db57a47f875d11c4068567b9ec7ace174ec4cf-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1606,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 400749
+      },
+      {
+        "id": "instance_ansible__ansible-39bd8b99ec8c6624207bf3556ac7f9626dad9173-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3807,
+        "steps": 37,
+        "exit_status": "submitted",
+        "tokens_sent": 322515
+      },
+      {
+        "id": "instance_ansible__ansible-3b823d908e8a5d17674f8c26d337d3114b7493b1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2565,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 153499
+      },
+      {
+        "id": "instance_ansible__ansible-3db08adbb1cc6aa9941be5e0fc810132c6e1fa4b-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2345,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 514119
+      },
+      {
+        "id": "instance_ansible__ansible-5d253a13807e884b7ce0b6b57a963a45e2f0322c-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 9863,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 1426165
+      },
+      {
+        "id": "instance_ansible__ansible-5f4e332e3762999d94af27746db29ff1729252c1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2381,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 509082
+      },
+      {
+        "id": "instance_ansible__ansible-622a493ae03bd5e5cf517d336fc426e9d12208c7-v906c969b551b346ef54a2c0b41e04f632b7b73c2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6869,
+        "steps": 54,
+        "exit_status": "submitted",
+        "tokens_sent": 490531
+      },
+      {
+        "id": "instance_ansible__ansible-83909bfa22573777e3db5688773bda59721962ad-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 9590,
+        "steps": 48,
+        "exit_status": "submitted",
+        "tokens_sent": 1938117
+      },
+      {
+        "id": "instance_ansible__ansible-9142be2f6cabbe6597c9254c5bb9186d17036d55-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2608,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 919910
+      },
+      {
+        "id": "instance_ansible__ansible-9759e0ca494de1fd5fc2df2c5d11c57adbe6007c-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 1125687
+      },
+      {
+        "id": "instance_ansible__ansible-a7d2a4e03209cff1e97e59fd54bb2b05fdbdbec6-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3362,
+        "steps": 79,
+        "exit_status": "submitted",
+        "tokens_sent": 3296885
+      },
+      {
+        "id": "instance_ansible__ansible-b2a289dcbb702003377221e25f62c8a3608f0e89-v173091e2e36d38c978002990795f66cfc0af30ad",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2333,
+        "steps": 44,
+        "exit_status": "submitted",
+        "tokens_sent": 332370
+      },
+      {
+        "id": "instance_ansible__ansible-b8025ac160146319d2b875be3366b60c852dd35d-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7849,
+        "steps": 59,
+        "exit_status": "submitted",
+        "tokens_sent": 2603951
+      },
+      {
+        "id": "instance_ansible__ansible-be2c376ab87e3e872ca21697508f12c6909cf85a-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3714,
+        "steps": 18,
+        "exit_status": "submitted",
+        "tokens_sent": 82164
+      },
+      {
+        "id": "instance_ansible__ansible-d2f80991180337e2be23d6883064a67dcbaeb662-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10306,
+        "steps": 35,
+        "exit_status": "submitted",
+        "tokens_sent": 325302
+      },
+      {
+        "id": "instance_ansible__ansible-d58e69c82d7edd0583dd8e78d76b075c33c3151e-v173091e2e36d38c978002990795f66cfc0af30ad",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 102,
+        "exit_status": "submitted",
+        "tokens_sent": 2390523
+      },
+      {
+        "id": "instance_ansible__ansible-d62496fe416623e88b90139dc7917080cb04ce70-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7014,
+        "steps": 33,
+        "exit_status": "submitted",
+        "tokens_sent": 1228205
+      },
+      {
+        "id": "instance_ansible__ansible-de5858f48dc9e1ce9117034e0d7e76806f420ca8-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5525,
+        "steps": 62,
+        "exit_status": "submitted",
+        "tokens_sent": 1179068
+      },
+      {
+        "id": "instance_ansible__ansible-ecea15c508f0e081525be036cf76bbb56dbcdd9d-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 1434429
+      },
+      {
+        "id": "instance_ansible__ansible-f8ef34672b961a95ec7282643679492862c688ec-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2704,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 1451118
+      },
+      {
+        "id": "instance_element-hq__element-web-1077729a19c0ce902e713cf6fab42c91fb7907f1-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1747,
+        "steps": 69,
+        "exit_status": "submitted",
+        "tokens_sent": 872627
+      },
+      {
+        "id": "instance_element-hq__element-web-27139ca68eb075a4438c18fca184887002a4ffbc-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4131,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 496714
+      },
+      {
+        "id": "instance_element-hq__element-web-41dfec20bfe9b62cddbbbf621bef2e9aa9685157-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4681,
+        "steps": 59,
+        "exit_status": "submitted",
+        "tokens_sent": 2340878
+      },
+      {
+        "id": "instance_element-hq__element-web-44b98896a79ede48f5ad7ff22619a39d5f6ff03c-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3227,
+        "steps": 28,
+        "exit_status": "submitted",
+        "tokens_sent": 833758
+      },
+      {
+        "id": "instance_element-hq__element-web-459df4583e01e4744a52d45446e34183385442d6-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6650,
+        "steps": 70,
+        "exit_status": "submitted",
+        "tokens_sent": 2566594
+      },
+      {
+        "id": "instance_element-hq__element-web-4c6b0d35add7ae8d58f71ea1711587e31081444b-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8704,
+        "steps": 13,
+        "exit_status": "submitted",
+        "tokens_sent": 397761
+      },
+      {
+        "id": "instance_element-hq__element-web-5dfde12c1c1c0b6e48f17e3405468593e39d9492-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4021,
+        "steps": 42,
+        "exit_status": "submitted",
+        "tokens_sent": 521207
+      },
+      {
+        "id": "instance_element-hq__element-web-6961c256035bed0b7640a6e5907652c806968478-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4973,
+        "steps": 44,
+        "exit_status": "submitted",
+        "tokens_sent": 362374
+      },
+      {
+        "id": "instance_element-hq__element-web-72a8f8f03b1a01bb70ef8a5bb61759416991b32c-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 778,
+        "steps": 16,
+        "exit_status": "submitted",
+        "tokens_sent": 375018
+      },
+      {
+        "id": "instance_element-hq__element-web-9a31cd0fa849da810b4fac6c6c015145e850b282-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7501,
+        "steps": 77,
+        "exit_status": "submitted",
+        "tokens_sent": 1633052
+      },
+      {
+        "id": "instance_element-hq__element-web-a692fe21811f88d92e8f7047fc615e4f1f986b0f-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 12312,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 551284
+      },
+      {
+        "id": "instance_element-hq__element-web-aec454dd6feeb93000380523cbb0b3681c0275fd-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 12257,
+        "steps": 37,
+        "exit_status": "submitted",
+        "tokens_sent": 358273
+      },
+      {
+        "id": "instance_element-hq__element-web-ca58617cee8aa91c93553449bfdf9b3465a5119b-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4589,
+        "steps": 48,
+        "exit_status": "submitted",
+        "tokens_sent": 1656724
+      },
+      {
+        "id": "instance_element-hq__element-web-d405160080bbe804f7e9294067d004a7d4dad9d6-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 9971,
+        "steps": 30,
+        "exit_status": "submitted",
+        "tokens_sent": 195720
+      },
+      {
+        "id": "instance_element-hq__element-web-e15ef9f3de36df7f318c083e485f44e1de8aad17",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8442,
+        "steps": 56,
+        "exit_status": "submitted",
+        "tokens_sent": 607841
+      },
+      {
+        "id": "instance_element-hq__element-web-f14374a51c153f64f313243f2df6ea4971db4e15",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 926,
+        "steps": 27,
+        "exit_status": "submitted",
+        "tokens_sent": 785628
+      },
+      {
+        "id": "instance_element-hq__element-web-f3534b42df3dcfe36dc48bddbf14034085af6d30-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 9675,
+        "steps": 45,
+        "exit_status": "submitted",
+        "tokens_sent": 1473877
+      },
+      {
+        "id": "instance_flipt-io__flipt-0b119520afca1cf25c470ff4288c464d4510b944",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 12287,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 475104
+      },
+      {
+        "id": "instance_flipt-io__flipt-15b76cada1ef29cfa56b0fba36754be36243dded",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 26714,
+        "steps": 60,
+        "exit_status": "submitted",
+        "tokens_sent": 1330909
+      },
+      {
+        "id": "instance_flipt-io__flipt-6fd0f9e2587f14ac1fdd1c229f0bcae0468c8daa",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4061,
+        "steps": 55,
+        "exit_status": "submitted",
+        "tokens_sent": 360228
+      },
+      {
+        "id": "instance_flipt-io__flipt-756f00f79ba8abf9fe53f3c6c818123b42eb7355",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8153,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 538917
+      },
+      {
+        "id": "instance_flipt-io__flipt-9d25c18b79bc7829a6fb08ec9e8793d5d17e2868",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2516,
+        "steps": 74,
+        "exit_status": "submitted",
+        "tokens_sent": 1515274
+      },
+      {
+        "id": "instance_flipt-io__flipt-a0cbc0cb65ae601270bdbe3f5313e2dfd49c80e4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 119108,
+        "steps": 79,
+        "exit_status": "submitted",
+        "tokens_sent": 2051971
+      },
+      {
+        "id": "instance_flipt-io__flipt-abaa5953795afb9c621605bb18cb32ac48b4508c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 30056,
+        "steps": 57,
+        "exit_status": "submitted",
+        "tokens_sent": 504827
+      },
+      {
+        "id": "instance_flipt-io__flipt-c1728053367c753688f114ec26e703c8fdeda125",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 29782,
+        "steps": 63,
+        "exit_status": "submitted",
+        "tokens_sent": 1138441
+      },
+      {
+        "id": "instance_flipt-io__flipt-dbe263961b187e1c5d7fe34c65b000985a2da5a0",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 36009,
+        "steps": 71,
+        "exit_status": "submitted",
+        "tokens_sent": 1778204
+      },
+      {
+        "id": "instance_flipt-io__flipt-e42da21a07a5ae35835ec54f74004ebd58713874",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 25418,
+        "steps": 23,
+        "exit_status": "submitted",
+        "tokens_sent": 159044
+      },
+      {
+        "id": "instance_future-architect__vuls-436341a4a522dc83eb8bddd1164b764c8dd6bc45",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1329,
+        "steps": 61,
+        "exit_status": "submitted",
+        "tokens_sent": 1461362
+      },
+      {
+        "id": "instance_future-architect__vuls-457a3a9627fb9a0800d0aecf1d4713fb634a9011",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 284316,
+        "steps": 119,
+        "exit_status": "submitted",
+        "tokens_sent": 4626797
+      },
+      {
+        "id": "instance_future-architect__vuls-61c39637f2f3809e1b5dad05f0c57c799dce1587",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 143435,
+        "steps": 52,
+        "exit_status": "submitted",
+        "tokens_sent": 621449
+      },
+      {
+        "id": "instance_future-architect__vuls-7eb77f5b5127c847481bcf600b4dca2b7a85cf3e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7143,
+        "steps": 58,
+        "exit_status": "submitted",
+        "tokens_sent": 705236
+      },
+      {
+        "id": "instance_future-architect__vuls-83bcca6e669ba2e4102f26c4a2b52f78c7861f1a",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14144,
+        "steps": 69,
+        "exit_status": "submitted",
+        "tokens_sent": 991500
+      },
+      {
+        "id": "instance_future-architect__vuls-86b60e1478e44d28b1aff6b9ac7e95ceb05bc5fc",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8455,
+        "steps": 62,
+        "exit_status": "submitted",
+        "tokens_sent": 1004866
+      },
+      {
+        "id": "instance_future-architect__vuls-be7b9114cc9545e68fb0ee7bc63d7ec53d1a00ad",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8156,
+        "steps": 50,
+        "exit_status": "submitted",
+        "tokens_sent": 485611
+      },
+      {
+        "id": "instance_future-architect__vuls-cc63a0eccfdd318e67c0a6edeffc7bf09b6025c0",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 24640,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 317919
+      },
+      {
+        "id": "instance_future-architect__vuls-e6c0da61324a0c04026ffd1c031436ee2be9503a",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 13010,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 461597
+      },
+      {
+        "id": "instance_future-architect__vuls-ef2be3d6ea4c0a13674aaab08b182eca4e2b9a17-v264a82e2f4818e30f5a25e4da53b27ba119f62b5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 234515,
+        "steps": 173,
+        "exit_status": "submitted",
+        "tokens_sent": 6126569
+      },
+      {
+        "id": "instance_gravitational__teleport-10123c046e21e1826098e485a4c2212865a49d9f",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 144895,
+        "steps": 56,
+        "exit_status": "submitted",
+        "tokens_sent": 2431576
+      },
+      {
+        "id": "instance_gravitational__teleport-1b08e7d0dbe68fe530a0f08ad408ec198b7c53fc-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6095,
+        "steps": 23,
+        "exit_status": "submitted",
+        "tokens_sent": 243442
+      },
+      {
+        "id": "instance_gravitational__teleport-24cafecd8721891092210afc55f6413ab46ca211-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 7735,
+        "steps": 14,
+        "exit_status": "submitted",
+        "tokens_sent": 201022
+      },
+      {
+        "id": "instance_gravitational__teleport-46a13210519461c7cec8d643bfbe750265775b41",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1328,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 607738
+      },
+      {
+        "id": "instance_gravitational__teleport-629dc432eb191ca479588a8c49205debb83e80e2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6379,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 1199153
+      },
+      {
+        "id": "instance_gravitational__teleport-6eaaf3a27e64f4ef4ef855bd35d7ec338cf17460-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2584,
+        "steps": 21,
+        "exit_status": "submitted",
+        "tokens_sent": 624463
+      },
+      {
+        "id": "instance_gravitational__teleport-ac2fb2f9b4fd1896b554d3011df23d3d71295779",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 18667,
+        "steps": 49,
+        "exit_status": "submitted",
+        "tokens_sent": 937594
+      },
+      {
+        "id": "instance_gravitational__teleport-bb69574e02bd62e5ccd3cebb25e1c992641afb2a",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 15907,
+        "steps": 18,
+        "exit_status": "submitted",
+        "tokens_sent": 602019
+      },
+      {
+        "id": "instance_gravitational__teleport-cb712e3f0b06dadc679f895daef8072cae400c26-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 52023,
+        "steps": 46,
+        "exit_status": "submitted",
+        "tokens_sent": 556467
+      },
+      {
+        "id": "instance_gravitational__teleport-eefac60a350930e5f295f94a2d55b94c1988c04e-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5836,
+        "steps": 49,
+        "exit_status": "submitted",
+        "tokens_sent": 1626943
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-0dc5b20fa186f9714f8a838178597e69f549d026-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4521,
+        "steps": 65,
+        "exit_status": "submitted",
+        "tokens_sent": 1043314
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-111347e9583372e8ef91c82e0612ea437ae3a9c9-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3772,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 852239
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-11838fad1028672eb975c79d8984f03348500173-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10052,
+        "steps": 63,
+        "exit_status": "submitted",
+        "tokens_sent": 1617969
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-308a35d6999427c02b1dbf5211c033ad3b352556-ve8c8d62a2b60610a3c4631f5f23ed866bada9818",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1350,
+        "steps": 35,
+        "exit_status": "submitted",
+        "tokens_sent": 261930
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-3c48b4bb782189e0858e6c3fc7956046cf3e1cfb-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3538,
+        "steps": 46,
+        "exit_status": "submitted",
+        "tokens_sent": 463524
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-43f9e7e0d56a4f1d487533543c17040a029ac501-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2230,
+        "steps": 31,
+        "exit_status": "submitted",
+        "tokens_sent": 1177038
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-4b7ea2977be2747496ba792a678940baa985f7ea-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4205,
+        "steps": 65,
+        "exit_status": "submitted",
+        "tokens_sent": 710161
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-58999808a17a26b387f8237860a7a524d1e2d262-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2275,
+        "steps": 14,
+        "exit_status": "submitted",
+        "tokens_sent": 38381
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-5c6c22f3d2edf2f1b10f5dc335e32cb6a5f40341-v76304ecdb3a5954fcf13feb710e8c40fcf24b73c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6328,
+        "steps": 37,
+        "exit_status": "submitted",
+        "tokens_sent": 1293453
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-62d2243131a9c7e6aee00d1e9c5660fd5b594e89-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 10574,
+        "steps": 32,
+        "exit_status": "submitted",
+        "tokens_sent": 286608
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-6a117fab6c963b74dc1ba907d838e74f76d34a4b-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1179,
+        "steps": 27,
+        "exit_status": "submitted",
+        "tokens_sent": 131967
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-6fdbbeee4c0a7e976ff3e46fb1d36f4eb110c428-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3182,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 1430537
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-72321288ea790a3ace9e36f1c05b68c93f7eec43-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 971,
+        "steps": 20,
+        "exit_status": "submitted",
+        "tokens_sent": 557121
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7cbfb812ef0e1f9716e2d6e85d538a96fcb79d13-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1281,
+        "steps": 15,
+        "exit_status": "submitted",
+        "tokens_sent": 374187
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7f7e53aa4cf74a4f8549a5bcd4810c527e2f6d7e-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3776,
+        "steps": 33,
+        "exit_status": "submitted",
+        "tokens_sent": 1041176
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-8a9d9d323dfcf2a5b4f38d70b1108b030b20ebf3-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10609,
+        "steps": 31,
+        "exit_status": "submitted",
+        "tokens_sent": 373535
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-92db3454aeaa02f89b4cdbc3103f7e95c9759f92-v2c55207218fb8a0138425cbf7d9675272e240b90",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1209,
+        "steps": 20,
+        "exit_status": "submitted",
+        "tokens_sent": 556711
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-9cd47f4dc21e273320d9e30d889c864f8cb20ccf-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2745,
+        "steps": 28,
+        "exit_status": "submitted",
+        "tokens_sent": 964395
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-acdddc590d0b3688f8f6386f43709049622a6e19-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5432,
+        "steps": 33,
+        "exit_status": "submitted",
+        "tokens_sent": 281427
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c05ccf2cd8baa81609434e0e35c4a63bc0da5a25-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5799,
+        "steps": 43,
+        "exit_status": "submitted",
+        "tokens_sent": 1529844
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c12943be1db80cf1114bc267ddf4f9933aca9b28-v2c55207218fb8a0138425cbf7d9675272e240b90",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5561,
+        "steps": 64,
+        "exit_status": "submitted",
+        "tokens_sent": 2311971
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c4eebe6677acc4629cb541a98d5e91311444f5d4-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1605,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 604977
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-dbbd9d539c6d4fd45d5be9662aa19b6d664b5137-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1251,
+        "steps": 24,
+        "exit_status": "submitted",
+        "tokens_sent": 666335
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-fad4a40acf5ff5f06cd7441a5c7baf41a7d81fe4-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5923,
+        "steps": 35,
+        "exit_status": "submitted",
+        "tokens_sent": 1115320
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-fdbc0d8f418333c7e575c40b661b582c301ef7ac-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 908,
+        "steps": 23,
+        "exit_status": "submitted",
+        "tokens_sent": 627643
+      },
+      {
+        "id": "instance_navidrome__navidrome-23bebe4e06124becf1000e88472ae71a6ca7de4c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 25999,
+        "steps": 25,
+        "exit_status": "submitted",
+        "tokens_sent": 794500
+      },
+      {
+        "id": "instance_navidrome__navidrome-3f2d24695e9382125dfe5e6d6c8bbeb4a313a4f9",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 12584,
+        "steps": 54,
+        "exit_status": "submitted",
+        "tokens_sent": 2060396
+      },
+      {
+        "id": "instance_navidrome__navidrome-66b74c81f115c78cb69910b0472eeb376750efc4",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3580,
+        "steps": 53,
+        "exit_status": "submitted",
+        "tokens_sent": 561591
+      },
+      {
+        "id": "instance_navidrome__navidrome-8e640bb8580affb7e0ea6225c0bbe240186b6b08",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 8856,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 939222
+      },
+      {
+        "id": "instance_navidrome__navidrome-b3980532237e57ab15b2b93c49d5cd5b2d050013",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 788,
+        "steps": 26,
+        "exit_status": "submitted",
+        "tokens_sent": 1696333
+      },
+      {
+        "id": "instance_navidrome__navidrome-d0dceae0943b8df16e579c2d9437e11760a0626a",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6086,
+        "steps": 103,
+        "exit_status": "submitted",
+        "tokens_sent": 4898443
+      },
+      {
+        "id": "instance_protonmail__webclients-1917e37f5d9941a3459ce4b0177e201e2d94a622",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 93,
+        "exit_status": "submitted",
+        "tokens_sent": 1529733
+      },
+      {
+        "id": "instance_protonmail__webclients-2c3559cad02d1090985dba7e8eb5a129144d9811",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5769,
+        "steps": 31,
+        "exit_status": "submitted",
+        "tokens_sent": 945414
+      },
+      {
+        "id": "instance_protonmail__webclients-369fd37de29c14c690cb3b1c09a949189734026f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1461,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 1454746
+      },
+      {
+        "id": "instance_protonmail__webclients-428cd033fede5fd6ae9dbc7ab634e010b10e4209",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 720,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 1419027
+      },
+      {
+        "id": "instance_protonmail__webclients-4817fe14e1356789c90165c2a53f6a043c2c5f83",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8009,
+        "steps": 85,
+        "exit_status": "submitted",
+        "tokens_sent": 1363605
+      },
+      {
+        "id": "instance_protonmail__webclients-51742625834d3bd0d10fe0c7e76b8739a59c6b9f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7098,
+        "steps": 49,
+        "exit_status": "submitted",
+        "tokens_sent": 525404
+      },
+      {
+        "id": "instance_protonmail__webclients-5d2576632037d655c3b6a28e98cd157f7e9a5ce1",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 11056,
+        "steps": 67,
+        "exit_status": "submitted",
+        "tokens_sent": 3063764
+      },
+      {
+        "id": "instance_protonmail__webclients-a6e6f617026794e7b505d649d2a7a9cdf17658c8",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2263,
+        "steps": 33,
+        "exit_status": "submitted",
+        "tokens_sent": 1191051
+      },
+      {
+        "id": "instance_protonmail__webclients-ac23d1efa1a6ab7e62724779317ba44c28d78cfd",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5465,
+        "steps": 51,
+        "exit_status": "submitted",
+        "tokens_sent": 1918559
+      },
+      {
+        "id": "instance_protonmail__webclients-b387b24147e4b5ec3b482b8719ea72bee001462a",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 822,
+        "steps": 18,
+        "exit_status": "submitted",
+        "tokens_sent": 475009
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-01d1d1494411380d97cac14614a829d3a69cecaf-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4052,
+        "steps": 21,
+        "exit_status": "submitted",
+        "tokens_sent": 198444
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-0fc6d1109d041c69a68a896db87cf1b8c194cef7-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8815,
+        "steps": 80,
+        "exit_status": "submitted",
+        "tokens_sent": 3181185
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-322834d0e6bf17e5661145c9f085b41215c280e8-v488d33dd1b2540b234cbb0468af6b6614941ce8f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2986,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 301395
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-34a13afd36b5e529d553892b1cd8b9d5ce8881c4-vafb3e8e01b31319c66c4e666b8a3b1d8ba55db24",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3319,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 193707
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-3d01c201b8aa54dd71d4f801b1dd12feb4c0a08a-v5fc38aaf22415ab0b70567368332beee7955b367",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5645,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 139918
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-473a15f7908f2bb6d670b0e908ab34a28d8cf7e2-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3708,
+        "steps": 78,
+        "exit_status": "submitted",
+        "tokens_sent": 1721161
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-479aa075ac79dc975e2e949e188a328e95bf78ff-vc2f56a753b62a190ddb23cd330c257b9cf560d12",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2241,
+        "steps": 31,
+        "exit_status": "submitted",
+        "tokens_sent": 379780
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-50efac08f623644a85441bbe02ab9347d2b71a9d-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2587,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 475958
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-5fdc83e5da6222fe61163395baaad7ae57fa2cb4-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3052,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 302250
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-6b320dc18662580e1313d2548fdd6231d2a97e6d-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3257,
+        "steps": 24,
+        "exit_status": "submitted",
+        "tokens_sent": 259742
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-7b603dd6bf195e3e723ce08ff64a82b406e3f6b6-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4502,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 200011
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-85b867fe8d4378c8e371f055c70452f546055854-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2035,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 81651
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-8cd06741bb56cdca49f5cdc0542da97681154315-v5149fcda2a9a6fe1d35dfed1bade1444a11ef271",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2684,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 429452
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-8f46ba3f6dc7b18375f7aa63c48a1fe461190430-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1767,
+        "steps": 17,
+        "exit_status": "submitted",
+        "tokens_sent": 54139
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-c0be28ebee3e1837aaf3f30ec534ccd6d038f129-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3288,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 305360
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-deeb15d6f009b3ca0c3bd503a7cef07462bd16b4-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6543,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 856470
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-ed19d7f58b2664bb310c7cb6b52c5b9a06ea60b2-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3004,
+        "steps": 28,
+        "exit_status": "submitted",
+        "tokens_sent": 178043
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-f7753550f2c1dcb2348e4779fd5287166754827e-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4596,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 386310
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-fcfa069a06ade76d91bac38127f3235c13d78eb1-v5fc38aaf22415ab0b70567368332beee7955b367",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4255,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 255954
+      },
+      {
+        "id": "instance_tutao__tutanota-09c2776c0fce3db5c6e18da92b5a45dce9f013aa-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 43315,
+        "steps": 50,
+        "exit_status": "submitted",
+        "tokens_sent": 624271
+      },
+      {
+        "id": "instance_tutao__tutanota-12a6cbaa4f8b43c2f85caca0787ab55501539955-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 26915,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 978376
+      },
+      {
+        "id": "instance_tutao__tutanota-1ff82aa365763cee2d609c9d19360ad87fdf2ec7-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 50172,
+        "steps": 38,
+        "exit_status": "submitted",
+        "tokens_sent": 1455782
+      },
+      {
+        "id": "instance_tutao__tutanota-8513a9e8114a8b42e64f4348335e0f23efa054c4-vee878bb72091875e912c52fc32bc60ec3760227b",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 23586,
+        "steps": 32,
+        "exit_status": "submitted",
+        "tokens_sent": 1201941
+      },
+      {
+        "id": "instance_tutao__tutanota-b4934a0f3c34d9d7649e944b183137e8fad3e859-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 19114,
+        "steps": 41,
+        "exit_status": "submitted",
+        "tokens_sent": 1503164
+      }
+    ],
+    "auto_submit": [
+      {
+        "id": "instance_NodeBB__NodeBB-4327a09d76f10a79109da9d91c22120428d3bdb9-vnan",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 60,
+        "exit_status": "exit_format",
+        "tokens_sent": 2138746
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-6489e9fd9ed16ea743cc5627f4d86c72fbdb3a8a-v2c59007b1005cd5cd14cbb523ca5229db1fd2dd8",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 15598,
+        "steps": 66,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 2678855
+      },
+      {
+        "id": "instance_ansible__ansible-1ee70fc272aff6bf3415357c6e13c5de5b928d9b-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 7,
+        "exit_status": "exit_format",
+        "tokens_sent": 6116
+      },
+      {
+        "id": "instance_element-hq__element-web-ee13e23b156fbad9369d6a656c827b6444343d4f-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4065,
+        "steps": 26,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 166740
+      },
+      {
+        "id": "instance_flipt-io__flipt-05d7234fa582df632f70a7cd10194d61bd7043b9",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 19,
+        "exit_status": "exit_format",
+        "tokens_sent": 214033
+      },
+      {
+        "id": "instance_flipt-io__flipt-2ce8a0331e8a8f63f2c1b555db8277ffe5aa2e63",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4413,
+        "steps": 25,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 241174
+      },
+      {
+        "id": "instance_flipt-io__flipt-36e62baffae2132f78f9d34dc300a9baa2d7ae0e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4263,
+        "steps": 39,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 257141
+      },
+      {
+        "id": "instance_flipt-io__flipt-3d5a345f94c2adc8a0eaa102c189c08ad4c0f8e8",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10561,
+        "steps": 59,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1035266
+      },
+      {
+        "id": "instance_flipt-io__flipt-3ef34d1fff012140ba86ab3cafec8f9934b492be",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 50124,
+        "steps": 48,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 523776
+      },
+      {
+        "id": "instance_flipt-io__flipt-406f9396ad65696d58865b3a6283109cd4eaf40e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14904,
+        "steps": 43,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 407148
+      },
+      {
+        "id": "instance_flipt-io__flipt-5aef5a14890aa145c22d864a834694bae3a6f112",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 33732,
+        "steps": 52,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 595904
+      },
+      {
+        "id": "instance_flipt-io__flipt-aebaecd026f752b187f11328b0d464761b15d2ab",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_format",
+        "tokens_sent": 70990
+      },
+      {
+        "id": "instance_flipt-io__flipt-b2cd6a6dd73ca91b519015fd5924fde8d17f3f06",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10712,
+        "steps": 33,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 288102
+      },
+      {
+        "id": "instance_flipt-io__flipt-c154dd1a3590954dfd3b901555fc6267f646a289",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 419,
+        "steps": 18,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 77824
+      },
+      {
+        "id": "instance_flipt-io__flipt-c188284ff0c094a4ee281afebebd849555ebee59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 150,
+        "steps": 27,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 268679
+      },
+      {
+        "id": "instance_flipt-io__flipt-cf06f4ebfab7fa21eed3e5838592e8e44566957f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 23210,
+        "steps": 31,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 224611
+      },
+      {
+        "id": "instance_flipt-io__flipt-d966559200183b713cdf3ea5007a7e0ba86a5afb",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 65096,
+        "steps": 21,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 196861
+      },
+      {
+        "id": "instance_flipt-io__flipt-db1c3b100e231c62f0c90c2ab037614f20a2a63b",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 33452,
+        "steps": 34,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 515395
+      },
+      {
+        "id": "instance_flipt-io__flipt-f808b4dd6e36b9dc8b011eb26b196f4e2cc64c41",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 23942,
+        "steps": 37,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 379712
+      },
+      {
+        "id": "instance_future-architect__vuls-8d5ea98e50cf616847f4e5a2df300395d1f719e9",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 32427,
+        "steps": 49,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 593991
+      },
+      {
+        "id": "instance_future-architect__vuls-9aa0d87a21bede91c2b45c32187456bb69455e92",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 7335
+      },
+      {
+        "id": "instance_future-architect__vuls-a76302c11174ca081f656c63a000ffa746e350af",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2575,
+        "steps": 51,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 853119
+      },
+      {
+        "id": "instance_future-architect__vuls-b8db2e0b74f60cb7d45f710f255e061f054b6afc",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 34584,
+        "steps": 22,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 58706
+      },
+      {
+        "id": "instance_future-architect__vuls-d576b6c6c15e56c47cc3e26f5878867677d4a9ea",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 12,
+        "exit_status": "exit_format",
+        "tokens_sent": 33620
+      },
+      {
+        "id": "instance_future-architect__vuls-dc496468b9e9fb73371f9606cdcdb0f8e12e70ca",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 36670,
+        "steps": 43,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 386164
+      },
+      {
+        "id": "instance_gravitational__teleport-0ac7334939981cf85b9591ac295c3816954e287e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 54839,
+        "steps": 47,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1891406
+      },
+      {
+        "id": "instance_gravitational__teleport-1a77b7945a022ab86858029d30ac7ad0d5239d00-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 10902,
+        "steps": 30,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 115231
+      },
+      {
+        "id": "instance_gravitational__teleport-32bcd71591c234f0d8b091ec01f1f5cbfdc0f13c-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14161,
+        "steps": 27,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 206484
+      },
+      {
+        "id": "instance_gravitational__teleport-59d39dee5a8a66e5b8a18a9085a199d369b1fba8-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6293,
+        "steps": 43,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1645973
+      },
+      {
+        "id": "instance_gravitational__teleport-645afa051b65d137654fd0d2d878a700152b305a-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 9256,
+        "steps": 31,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 299519
+      },
+      {
+        "id": "instance_gravitational__teleport-6a14edcf1ff010172fdbac622d0a474ed6af46de",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 93787
+      },
+      {
+        "id": "instance_gravitational__teleport-82185f232ae8974258397e121b3bc2ed0c3729ed-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 861,
+        "steps": 20,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 97834
+      },
+      {
+        "id": "instance_gravitational__teleport-b1bcd8b90c474a35bb11cc3ef4cc8941e1f8eab2-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 4,
+        "exit_status": "exit_format",
+        "tokens_sent": 2102
+      },
+      {
+        "id": "instance_gravitational__teleport-b4e7cd3a5e246736d3fe8d6886af55030b232277",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 259,
+        "steps": 36,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 359710
+      },
+      {
+        "id": "instance_gravitational__teleport-c335534e02de143508ebebc7341021d7f8656e8f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3615,
+        "steps": 47,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 719534
+      },
+      {
+        "id": "instance_gravitational__teleport-e6681abe6a7113cfd2da507f05581b7bdf398540-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_format",
+        "tokens_sent": 111639
+      },
+      {
+        "id": "instance_gravitational__teleport-fb0ab2b9b771377a689fd0d0374777c251e58bbf",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 15,
+        "exit_status": "exit_format",
+        "tokens_sent": 37315
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-77c16d530b4d5c0f33d68bead2c6b329aee9b996-ve8c8d62a2b60610a3c4631f5f23ed866bada9818",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 9,
+        "exit_status": "exit_format",
+        "tokens_sent": 15859
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7bf3238533070f2d24bafbb26eedf675d51941f6-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 4,
+        "exit_status": "exit_format",
+        "tokens_sent": 3318
+      },
+      {
+        "id": "instance_navidrome__navidrome-10108c63c9b5bdf2966ffb3239bbfd89683e37b7",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 26918,
+        "steps": 45,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 459329
+      },
+      {
+        "id": "instance_navidrome__navidrome-3977ef6e0f287f598b6e4009876239d6f13b686d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3979,
+        "steps": 14,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 319072
+      },
+      {
+        "id": "instance_navidrome__navidrome-5e549255201e622c911621a7b770477b1f5a89be",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10249,
+        "steps": 44,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 426934
+      },
+      {
+        "id": "instance_navidrome__navidrome-87d4db7638b37eeb754b217440ab7a372f669205",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 176,
+        "steps": 14,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 336584
+      },
+      {
+        "id": "instance_navidrome__navidrome-e12a14a87d392ac70ee4cc8079e3c3e0103dbcb2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 27126,
+        "steps": 38,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 350559
+      },
+      {
+        "id": "instance_navidrome__navidrome-eebfbc5381a1e506ff17b5f1371d1ad83d5fd642",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 12764,
+        "steps": 22,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 614253
+      },
+      {
+        "id": "instance_protonmail__webclients-01b519cd49e6a24d9a05d2eb97f54e420740072e",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 6315,
+        "steps": 36,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1224911
+      },
+      {
+        "id": "instance_protonmail__webclients-0ec14e36ceb01ba45602a563e12352af8171ed39",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 8,
+        "exit_status": "exit_format",
+        "tokens_sent": 7250
+      },
+      {
+        "id": "instance_protonmail__webclients-3a6790f480309130b5d6332dce6c9d5ccca13ee3",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1186,
+        "steps": 29,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 323299
+      },
+      {
+        "id": "instance_protonmail__webclients-4feccbc9990980aee26ea29035f8f931d6089895",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 11444,
+        "steps": 45,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1809401
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 20162
+      },
+      {
+        "id": "instance_tutao__tutanota-de49d486feef842101506adf040a0f00ded59519-v10a26bfb45a064b93f4fc044a0254925037b88f1",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 8,
+        "exit_status": "exit_format",
+        "tokens_sent": 7189
+      },
+      {
+        "id": "instance_tutao__tutanota-fe240cbf7f0fdd6744ef7bef8cb61676bcdbb621-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 68447,
+        "steps": 46,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1511230
+      }
+    ],
+    "forfeit": []
+  },
+  "exp5": {
+    "intentional": [
+      {
+        "id": "instance_ansible__ansible-0fd88717c953b92ed8a50495d55e630eb5d59166-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3153,
+        "steps": 21,
+        "exit_status": "submitted",
+        "tokens_sent": 629317
+      },
+      {
+        "id": "instance_ansible__ansible-1ee70fc272aff6bf3415357c6e13c5de5b928d9b-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2182,
+        "steps": 30,
+        "exit_status": "submitted",
+        "tokens_sent": 147226
+      },
+      {
+        "id": "instance_ansible__ansible-3db08adbb1cc6aa9941be5e0fc810132c6e1fa4b-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2341,
+        "steps": 28,
+        "exit_status": "submitted",
+        "tokens_sent": 808561
+      },
+      {
+        "id": "instance_ansible__ansible-83909bfa22573777e3db5688773bda59721962ad-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 11480,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 1274288
+      },
+      {
+        "id": "instance_ansible__ansible-a7d2a4e03209cff1e97e59fd54bb2b05fdbdbec6-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3449,
+        "steps": 64,
+        "exit_status": "submitted",
+        "tokens_sent": 2865672
+      },
+      {
+        "id": "instance_ansible__ansible-be2c376ab87e3e872ca21697508f12c6909cf85a-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3146,
+        "steps": 16,
+        "exit_status": "submitted",
+        "tokens_sent": 446519
+      },
+      {
+        "id": "instance_ansible__ansible-d58e69c82d7edd0583dd8e78d76b075c33c3151e-v173091e2e36d38c978002990795f66cfc0af30ad",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 8061,
+        "steps": 71,
+        "exit_status": "submitted",
+        "tokens_sent": 3040087
+      },
+      {
+        "id": "instance_ansible__ansible-d62496fe416623e88b90139dc7917080cb04ce70-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 8109,
+        "steps": 26,
+        "exit_status": "submitted",
+        "tokens_sent": 781165
+      },
+      {
+        "id": "instance_ansible__ansible-f8ef34672b961a95ec7282643679492862c688ec-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 595,
+        "steps": 62,
+        "exit_status": "submitted",
+        "tokens_sent": 2479503
+      },
+      {
+        "id": "instance_element-hq__element-web-27139ca68eb075a4438c18fca184887002a4ffbc-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2354,
+        "steps": 18,
+        "exit_status": "submitted",
+        "tokens_sent": 436055
+      },
+      {
+        "id": "instance_element-hq__element-web-41dfec20bfe9b62cddbbbf621bef2e9aa9685157-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2187,
+        "steps": 52,
+        "exit_status": "submitted",
+        "tokens_sent": 1858251
+      },
+      {
+        "id": "instance_element-hq__element-web-6961c256035bed0b7640a6e5907652c806968478-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4087,
+        "steps": 47,
+        "exit_status": "submitted",
+        "tokens_sent": 582271
+      },
+      {
+        "id": "instance_element-hq__element-web-f14374a51c153f64f313243f2df6ea4971db4e15",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1924,
+        "steps": 42,
+        "exit_status": "submitted",
+        "tokens_sent": 1242680
+      },
+      {
+        "id": "instance_flipt-io__flipt-a0cbc0cb65ae601270bdbe3f5313e2dfd49c80e4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2589,
+        "steps": 60,
+        "exit_status": "submitted",
+        "tokens_sent": 1840459
+      },
+      {
+        "id": "instance_future-architect__vuls-cc63a0eccfdd318e67c0a6edeffc7bf09b6025c0",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 950,
+        "steps": 25,
+        "exit_status": "submitted",
+        "tokens_sent": 210575
+      },
+      {
+        "id": "instance_gravitational__teleport-ac2fb2f9b4fd1896b554d3011df23d3d71295779",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 242753,
+        "steps": 100,
+        "exit_status": "submitted",
+        "tokens_sent": 2478654
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-111347e9583372e8ef91c82e0612ea437ae3a9c9-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3526,
+        "steps": 45,
+        "exit_status": "submitted",
+        "tokens_sent": 965827
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-308a35d6999427c02b1dbf5211c033ad3b352556-ve8c8d62a2b60610a3c4631f5f23ed866bada9818",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 16042,
+        "steps": 76,
+        "exit_status": "submitted",
+        "tokens_sent": 2003666
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-43f9e7e0d56a4f1d487533543c17040a029ac501-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1995,
+        "steps": 39,
+        "exit_status": "submitted",
+        "tokens_sent": 1406299
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-4b7ea2977be2747496ba792a678940baa985f7ea-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2300,
+        "steps": 34,
+        "exit_status": "submitted",
+        "tokens_sent": 330131
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-58999808a17a26b387f8237860a7a524d1e2d262-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2182,
+        "steps": 16,
+        "exit_status": "submitted",
+        "tokens_sent": 44897
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-6a117fab6c963b74dc1ba907d838e74f76d34a4b-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3059,
+        "steps": 38,
+        "exit_status": "submitted",
+        "tokens_sent": 309946
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-6fdbbeee4c0a7e976ff3e46fb1d36f4eb110c428-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5584,
+        "steps": 45,
+        "exit_status": "submitted",
+        "tokens_sent": 488355
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7cbfb812ef0e1f9716e2d6e85d538a96fcb79d13-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1142,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 76302
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7f7e53aa4cf74a4f8549a5bcd4810c527e2f6d7e-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3100,
+        "steps": 32,
+        "exit_status": "submitted",
+        "tokens_sent": 987069
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-8a9d9d323dfcf2a5b4f38d70b1108b030b20ebf3-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 13339,
+        "steps": 27,
+        "exit_status": "submitted",
+        "tokens_sent": 952454
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-9cd47f4dc21e273320d9e30d889c864f8cb20ccf-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3729,
+        "steps": 24,
+        "exit_status": "submitted",
+        "tokens_sent": 778930
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c12943be1db80cf1114bc267ddf4f9933aca9b28-v2c55207218fb8a0138425cbf7d9675272e240b90",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4566,
+        "steps": 24,
+        "exit_status": "submitted",
+        "tokens_sent": 670106
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c4eebe6677acc4629cb541a98d5e91311444f5d4-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1502,
+        "steps": 31,
+        "exit_status": "submitted",
+        "tokens_sent": 215281
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-dbbd9d539c6d4fd45d5be9662aa19b6d664b5137-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3689,
+        "steps": 22,
+        "exit_status": "submitted",
+        "tokens_sent": 716119
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-fad4a40acf5ff5f06cd7441a5c7baf41a7d81fe4-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3609,
+        "steps": 25,
+        "exit_status": "submitted",
+        "tokens_sent": 708910
+      },
+      {
+        "id": "instance_navidrome__navidrome-23bebe4e06124becf1000e88472ae71a6ca7de4c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 935,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 525710
+      },
+      {
+        "id": "instance_protonmail__webclients-01b519cd49e6a24d9a05d2eb97f54e420740072e",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4684,
+        "steps": 40,
+        "exit_status": "submitted",
+        "tokens_sent": 385568
+      },
+      {
+        "id": "instance_protonmail__webclients-0ec14e36ceb01ba45602a563e12352af8171ed39",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2986,
+        "steps": 26,
+        "exit_status": "submitted",
+        "tokens_sent": 922775
+      },
+      {
+        "id": "instance_protonmail__webclients-2c3559cad02d1090985dba7e8eb5a129144d9811",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5695,
+        "steps": 55,
+        "exit_status": "submitted",
+        "tokens_sent": 1847274
+      },
+      {
+        "id": "instance_protonmail__webclients-369fd37de29c14c690cb3b1c09a949189734026f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1446,
+        "steps": 21,
+        "exit_status": "submitted",
+        "tokens_sent": 695426
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-01d1d1494411380d97cac14614a829d3a69cecaf-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3524,
+        "steps": 30,
+        "exit_status": "submitted",
+        "tokens_sent": 371074
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-6b320dc18662580e1313d2548fdd6231d2a97e6d-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2973,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 180777
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-7b603dd6bf195e3e723ce08ff64a82b406e3f6b6-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 5347,
+        "steps": 29,
+        "exit_status": "submitted",
+        "tokens_sent": 366992
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-8f46ba3f6dc7b18375f7aa63c48a1fe461190430-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1776,
+        "steps": 19,
+        "exit_status": "submitted",
+        "tokens_sent": 81280
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-c0be28ebee3e1837aaf3f30ec534ccd6d038f129-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2725,
+        "steps": 24,
+        "exit_status": "submitted",
+        "tokens_sent": 579938
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-f7753550f2c1dcb2348e4779fd5287166754827e-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3524,
+        "steps": 36,
+        "exit_status": "submitted",
+        "tokens_sent": 481496
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1696,
+        "steps": 27,
+        "exit_status": "submitted",
+        "tokens_sent": 291415
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-fcfa069a06ade76d91bac38127f3235c13d78eb1-v5fc38aaf22415ab0b70567368332beee7955b367",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4112,
+        "steps": 32,
+        "exit_status": "submitted",
+        "tokens_sent": 274326
+      }
+    ],
+    "auto_submit": [
+      {
+        "id": "instance_NodeBB__NodeBB-05f2236193f407cf8e2072757fbd6bb170bc13f0-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2656,
+        "steps": 71,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 892496
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-22368b996ee0e5f11a5189b400b33af3cc8d925a-v4fbcfae8b15e4ce5d132c408bca69ebb9cf146ed",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 17720,
+        "steps": 12,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 327487
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-2657804c1fb6b84dc76ad3b18ecf061aaab5f29f-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 26485,
+        "steps": 48,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1852428
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-4327a09d76f10a79109da9d91c22120428d3bdb9-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14833,
+        "steps": 43,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1344355
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-84dfda59e6a0e8a77240f939a7cb8757e6eaf945-v2c59007b1005cd5cd14cbb523ca5229db1fd2dd8",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 27566,
+        "steps": 49,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1707945
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-9c576a0758690f45a6ca03b5884c601e473bf2c1-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14625,
+        "steps": 19,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 555097
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-bad15643013ca15affe408b75eba9e47cc604bb2-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 33349,
+        "steps": 29,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 935352
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-cfc237c2b79d8c731bbfc6cadf977ed530bfd57a-v0495b863a912fbff5749c67e860612b91825407c",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 23414,
+        "steps": 33,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 893700
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f083cd559d69c16481376868c8da65172729c0ca-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 123305,
+        "steps": 41,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 512983
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f48ed3658aab7be0f1165d4c1f89af48d7865189-v0495b863a912fbff5749c67e860612b91825407c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 60111,
+        "steps": 73,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 2818798
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f9ce92df988db7c1ae55d9ef96d247d27478bc70-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 19430,
+        "steps": 36,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1251806
+      },
+      {
+        "id": "instance_ansible__ansible-34db57a47f875d11c4068567b9ec7ace174ec4cf-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2097,
+        "steps": 12,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 302600
+      },
+      {
+        "id": "instance_ansible__ansible-39bd8b99ec8c6624207bf3556ac7f9626dad9173-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1454,
+        "steps": 11,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 267531
+      },
+      {
+        "id": "instance_ansible__ansible-3b823d908e8a5d17674f8c26d337d3114b7493b1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 2879,
+        "steps": 25,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 745021
+      },
+      {
+        "id": "instance_ansible__ansible-5f4e332e3762999d94af27746db29ff1729252c1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 933,
+        "steps": 13,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 315872
+      },
+      {
+        "id": "instance_ansible__ansible-622a493ae03bd5e5cf517d336fc426e9d12208c7-v906c969b551b346ef54a2c0b41e04f632b7b73c2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 583,
+        "steps": 26,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 832625
+      },
+      {
+        "id": "instance_ansible__ansible-9142be2f6cabbe6597c9254c5bb9186d17036d55-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6137,
+        "steps": 21,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 614592
+      },
+      {
+        "id": "instance_ansible__ansible-9759e0ca494de1fd5fc2df2c5d11c57adbe6007c-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2415,
+        "steps": 36,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 424115
+      },
+      {
+        "id": "instance_ansible__ansible-b2a289dcbb702003377221e25f62c8a3608f0e89-v173091e2e36d38c978002990795f66cfc0af30ad",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 279,
+        "steps": 26,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 139079
+      },
+      {
+        "id": "instance_ansible__ansible-d2f80991180337e2be23d6883064a67dcbaeb662-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3073,
+        "steps": 39,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1411237
+      },
+      {
+        "id": "instance_ansible__ansible-ecea15c508f0e081525be036cf76bbb56dbcdd9d-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4990,
+        "steps": 36,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1309312
+      },
+      {
+        "id": "instance_element-hq__element-web-44b98896a79ede48f5ad7ff22619a39d5f6ff03c-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 756,
+        "steps": 26,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 810847
+      },
+      {
+        "id": "instance_element-hq__element-web-459df4583e01e4744a52d45446e34183385442d6-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6847,
+        "steps": 44,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 373381
+      },
+      {
+        "id": "instance_element-hq__element-web-4c6b0d35add7ae8d58f71ea1711587e31081444b-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 9036,
+        "steps": 21,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 606708
+      },
+      {
+        "id": "instance_element-hq__element-web-72a8f8f03b1a01bb70ef8a5bb61759416991b32c-vnan",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3247,
+        "steps": 17,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 399044
+      },
+      {
+        "id": "instance_element-hq__element-web-9a31cd0fa849da810b4fac6c6c015145e850b282-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 14546,
+        "steps": 43,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1634736
+      },
+      {
+        "id": "instance_element-hq__element-web-a692fe21811f88d92e8f7047fc615e4f1f986b0f-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6241,
+        "steps": 33,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1102120
+      },
+      {
+        "id": "instance_element-hq__element-web-aec454dd6feeb93000380523cbb0b3681c0275fd-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 576,
+        "steps": 18,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 489867
+      },
+      {
+        "id": "instance_element-hq__element-web-ca58617cee8aa91c93553449bfdf9b3465a5119b-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1755,
+        "steps": 33,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 182072
+      },
+      {
+        "id": "instance_element-hq__element-web-e15ef9f3de36df7f318c083e485f44e1de8aad17",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1058,
+        "steps": 23,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 672581
+      },
+      {
+        "id": "instance_element-hq__element-web-ee13e23b156fbad9369d6a656c827b6444343d4f-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5794,
+        "steps": 19,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 97477
+      },
+      {
+        "id": "instance_element-hq__element-web-f3534b42df3dcfe36dc48bddbf14034085af6d30-vnan",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5297,
+        "steps": 30,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 898444
+      },
+      {
+        "id": "instance_flipt-io__flipt-05d7234fa582df632f70a7cd10194d61bd7043b9",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 259,
+        "steps": 25,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 162574
+      },
+      {
+        "id": "instance_flipt-io__flipt-0b119520afca1cf25c470ff4288c464d4510b944",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 70030,
+        "steps": 43,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 721135
+      },
+      {
+        "id": "instance_flipt-io__flipt-15b76cada1ef29cfa56b0fba36754be36243dded",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 141,
+        "steps": 23,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 155818
+      },
+      {
+        "id": "instance_flipt-io__flipt-2ce8a0331e8a8f63f2c1b555db8277ffe5aa2e63",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 26,
+        "exit_status": "exit_format",
+        "tokens_sent": 174319
+      },
+      {
+        "id": "instance_flipt-io__flipt-3d5a345f94c2adc8a0eaa102c189c08ad4c0f8e8",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 11148,
+        "steps": 40,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 641198
+      },
+      {
+        "id": "instance_flipt-io__flipt-3ef34d1fff012140ba86ab3cafec8f9934b492be",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 682,
+        "steps": 43,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 828219
+      },
+      {
+        "id": "instance_flipt-io__flipt-406f9396ad65696d58865b3a6283109cd4eaf40e",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 141,
+        "steps": 21,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 138877
+      },
+      {
+        "id": "instance_flipt-io__flipt-756f00f79ba8abf9fe53f3c6c818123b42eb7355",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 12486,
+        "steps": 27,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 255523
+      },
+      {
+        "id": "instance_flipt-io__flipt-abaa5953795afb9c621605bb18cb32ac48b4508c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 34589,
+        "steps": 43,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 401383
+      },
+      {
+        "id": "instance_flipt-io__flipt-aebaecd026f752b187f11328b0d464761b15d2ab",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 10293,
+        "steps": 24,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 102257
+      },
+      {
+        "id": "instance_flipt-io__flipt-c154dd1a3590954dfd3b901555fc6267f646a289",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 704,
+        "steps": 13,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 44457
+      },
+      {
+        "id": "instance_flipt-io__flipt-c188284ff0c094a4ee281afebebd849555ebee59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 287,
+        "steps": 32,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 194823
+      },
+      {
+        "id": "instance_flipt-io__flipt-cf06f4ebfab7fa21eed3e5838592e8e44566957f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 22864,
+        "steps": 29,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 245990
+      },
+      {
+        "id": "instance_flipt-io__flipt-d966559200183b713cdf3ea5007a7e0ba86a5afb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 37543,
+        "steps": 19,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 200430
+      },
+      {
+        "id": "instance_flipt-io__flipt-db1c3b100e231c62f0c90c2ab037614f20a2a63b",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 37567,
+        "steps": 49,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 847041
+      },
+      {
+        "id": "instance_flipt-io__flipt-e42da21a07a5ae35835ec54f74004ebd58713874",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2294,
+        "steps": 31,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 234019
+      },
+      {
+        "id": "instance_flipt-io__flipt-f808b4dd6e36b9dc8b011eb26b196f4e2cc64c41",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 24436,
+        "steps": 44,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 450358
+      },
+      {
+        "id": "instance_future-architect__vuls-436341a4a522dc83eb8bddd1164b764c8dd6bc45",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 10778
+      },
+      {
+        "id": "instance_future-architect__vuls-457a3a9627fb9a0800d0aecf1d4713fb634a9011",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_format",
+        "tokens_sent": 110568
+      },
+      {
+        "id": "instance_future-architect__vuls-86b60e1478e44d28b1aff6b9ac7e95ceb05bc5fc",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 25348,
+        "steps": 28,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 250995
+      },
+      {
+        "id": "instance_future-architect__vuls-8d5ea98e50cf616847f4e5a2df300395d1f719e9",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 104590,
+        "steps": 39,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 431436
+      },
+      {
+        "id": "instance_future-architect__vuls-a76302c11174ca081f656c63a000ffa746e350af",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 669,
+        "steps": 15,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 80712
+      },
+      {
+        "id": "instance_future-architect__vuls-b8db2e0b74f60cb7d45f710f255e061f054b6afc",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 34388,
+        "steps": 16,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 91162
+      },
+      {
+        "id": "instance_future-architect__vuls-be7b9114cc9545e68fb0ee7bc63d7ec53d1a00ad",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 25452,
+        "steps": 38,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 359172
+      },
+      {
+        "id": "instance_future-architect__vuls-d576b6c6c15e56c47cc3e26f5878867677d4a9ea",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 7486
+      },
+      {
+        "id": "instance_future-architect__vuls-ef2be3d6ea4c0a13674aaab08b182eca4e2b9a17-v264a82e2f4818e30f5a25e4da53b27ba119f62b5",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 483,
+        "steps": 25,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 237068
+      },
+      {
+        "id": "instance_gravitational__teleport-10123c046e21e1826098e485a4c2212865a49d9f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 542,
+        "steps": 26,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 967214
+      },
+      {
+        "id": "instance_gravitational__teleport-1a77b7945a022ab86858029d30ac7ad0d5239d00-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 13501,
+        "steps": 15,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 392615
+      },
+      {
+        "id": "instance_gravitational__teleport-1b08e7d0dbe68fe530a0f08ad408ec198b7c53fc-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1183,
+        "steps": 15,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 239407
+      },
+      {
+        "id": "instance_gravitational__teleport-24cafecd8721891092210afc55f6413ab46ca211-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 7794,
+        "steps": 12,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 146837
+      },
+      {
+        "id": "instance_gravitational__teleport-32bcd71591c234f0d8b091ec01f1f5cbfdc0f13c-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 90911
+      },
+      {
+        "id": "instance_gravitational__teleport-46a13210519461c7cec8d643bfbe750265775b41",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 75113,
+        "steps": 64,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 964219
+      },
+      {
+        "id": "instance_gravitational__teleport-629dc432eb191ca479588a8c49205debb83e80e2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5627,
+        "steps": 15,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 466884
+      },
+      {
+        "id": "instance_gravitational__teleport-645afa051b65d137654fd0d2d878a700152b305a-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3773,
+        "steps": 24,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 570358
+      },
+      {
+        "id": "instance_gravitational__teleport-6a14edcf1ff010172fdbac622d0a474ed6af46de",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4319,
+        "steps": 45,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 564032
+      },
+      {
+        "id": "instance_gravitational__teleport-6eaaf3a27e64f4ef4ef855bd35d7ec338cf17460-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2431,
+        "steps": 12,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 291458
+      },
+      {
+        "id": "instance_gravitational__teleport-82185f232ae8974258397e121b3bc2ed0c3729ed-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 164241,
+        "steps": 24,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 789170
+      },
+      {
+        "id": "instance_gravitational__teleport-b1bcd8b90c474a35bb11cc3ef4cc8941e1f8eab2-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 27711,
+        "steps": 42,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 361873
+      },
+      {
+        "id": "instance_gravitational__teleport-b4e7cd3a5e246736d3fe8d6886af55030b232277",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 293997,
+        "steps": 51,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 2118888
+      },
+      {
+        "id": "instance_gravitational__teleport-bb69574e02bd62e5ccd3cebb25e1c992641afb2a",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 17723,
+        "steps": 18,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 592435
+      },
+      {
+        "id": "instance_gravitational__teleport-c335534e02de143508ebebc7341021d7f8656e8f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4702,
+        "steps": 51,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 745703
+      },
+      {
+        "id": "instance_gravitational__teleport-cb712e3f0b06dadc679f895daef8072cae400c26-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 238,
+        "steps": 22,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 135361
+      },
+      {
+        "id": "instance_gravitational__teleport-eefac60a350930e5f295f94a2d55b94c1988c04e-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5343,
+        "steps": 50,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1568414
+      },
+      {
+        "id": "instance_gravitational__teleport-fb0ab2b9b771377a689fd0d0374777c251e58bbf",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 54191,
+        "steps": 41,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1301051
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-0dc5b20fa186f9714f8a838178597e69f549d026-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7222,
+        "steps": 70,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1006081
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-3c48b4bb782189e0858e6c3fc7956046cf3e1cfb-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2986,
+        "steps": 36,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 676701
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-5c6c22f3d2edf2f1b10f5dc335e32cb6a5f40341-v76304ecdb3a5954fcf13feb710e8c40fcf24b73c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5643,
+        "steps": 57,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 2200904
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-62d2243131a9c7e6aee00d1e9c5660fd5b594e89-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1566,
+        "steps": 20,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 114517
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-72321288ea790a3ace9e36f1c05b68c93f7eec43-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1225,
+        "steps": 17,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 471747
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-77c16d530b4d5c0f33d68bead2c6b329aee9b996-ve8c8d62a2b60610a3c4631f5f23ed866bada9818",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7743,
+        "steps": 27,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 531848
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-7bf3238533070f2d24bafbb26eedf675d51941f6-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 846,
+        "steps": 27,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 193711
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-92db3454aeaa02f89b4cdbc3103f7e95c9759f92-v2c55207218fb8a0138425cbf7d9675272e240b90",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1252,
+        "steps": 24,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 140831
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-acdddc590d0b3688f8f6386f43709049622a6e19-vfa6ff903cb27f336e17654595dd900fa943dcd91",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7502,
+        "steps": 37,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 363466
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-c05ccf2cd8baa81609434e0e35c4a63bc0da5a25-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 749,
+        "steps": 17,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 444473
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-fdbc0d8f418333c7e575c40b661b582c301ef7ac-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1511,
+        "steps": 21,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 606488
+      },
+      {
+        "id": "instance_navidrome__navidrome-3977ef6e0f287f598b6e4009876239d6f13b686d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 223,
+        "steps": 13,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 19743
+      },
+      {
+        "id": "instance_navidrome__navidrome-3f2d24695e9382125dfe5e6d6c8bbeb4a313a4f9",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 53370,
+        "steps": 35,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1118332
+      },
+      {
+        "id": "instance_navidrome__navidrome-5e549255201e622c911621a7b770477b1f5a89be",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 82855
+      },
+      {
+        "id": "instance_navidrome__navidrome-66b74c81f115c78cb69910b0472eeb376750efc4",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 13838
+      },
+      {
+        "id": "instance_navidrome__navidrome-87d4db7638b37eeb754b217440ab7a372f669205",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 32246,
+        "steps": 20,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 570149
+      },
+      {
+        "id": "instance_navidrome__navidrome-8e640bb8580affb7e0ea6225c0bbe240186b6b08",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1955,
+        "steps": 19,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 473907
+      },
+      {
+        "id": "instance_navidrome__navidrome-b3980532237e57ab15b2b93c49d5cd5b2d050013",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 683,
+        "steps": 10,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 584960
+      },
+      {
+        "id": "instance_navidrome__navidrome-e12a14a87d392ac70ee4cc8079e3c3e0103dbcb2",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 26059,
+        "steps": 36,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1629674
+      },
+      {
+        "id": "instance_navidrome__navidrome-eebfbc5381a1e506ff17b5f1371d1ad83d5fd642",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 11178,
+        "steps": 35,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 1166680
+      },
+      {
+        "id": "instance_protonmail__webclients-1917e37f5d9941a3459ce4b0177e201e2d94a622",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1341,
+        "steps": 46,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 451294
+      },
+      {
+        "id": "instance_protonmail__webclients-3a6790f480309130b5d6332dce6c9d5ccca13ee3",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 1611,
+        "steps": 24,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 150572
+      },
+      {
+        "id": "instance_protonmail__webclients-4feccbc9990980aee26ea29035f8f931d6089895",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 4470,
+        "steps": 31,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1464952
+      },
+      {
+        "id": "instance_protonmail__webclients-51742625834d3bd0d10fe0c7e76b8739a59c6b9f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5988,
+        "steps": 33,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 211854
+      },
+      {
+        "id": "instance_protonmail__webclients-5d2576632037d655c3b6a28e98cd157f7e9a5ce1",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 10585,
+        "steps": 69,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 3080580
+      },
+      {
+        "id": "instance_protonmail__webclients-a6e6f617026794e7b505d649d2a7a9cdf17658c8",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 6,
+        "exit_status": "exit_format",
+        "tokens_sent": 101214
+      },
+      {
+        "id": "instance_protonmail__webclients-ac23d1efa1a6ab7e62724779317ba44c28d78cfd",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3656,
+        "steps": 59,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1919836
+      },
+      {
+        "id": "instance_protonmail__webclients-b387b24147e4b5ec3b482b8719ea72bee001462a",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 9,
+        "exit_status": "exit_format",
+        "tokens_sent": 161649
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-0fc6d1109d041c69a68a896db87cf1b8c194cef7-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 7468,
+        "steps": 32,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 312455
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-322834d0e6bf17e5661145c9f085b41215c280e8-v488d33dd1b2540b234cbb0468af6b6614941ce8f",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 4671,
+        "steps": 24,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 142078
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-34a13afd36b5e529d553892b1cd8b9d5ce8881c4-vafb3e8e01b31319c66c4e666b8a3b1d8ba55db24",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 4,
+        "exit_status": "exit_format",
+        "tokens_sent": 2282
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-3d01c201b8aa54dd71d4f801b1dd12feb4c0a08a-v5fc38aaf22415ab0b70567368332beee7955b367",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 919,
+        "steps": 10,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 21797
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-473a15f7908f2bb6d670b0e908ab34a28d8cf7e2-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 2952,
+        "steps": 28,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 179833
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-479aa075ac79dc975e2e949e188a328e95bf78ff-vc2f56a753b62a190ddb23cd330c257b9cf560d12",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 3051,
+        "steps": 14,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 127762
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-50efac08f623644a85441bbe02ab9347d2b71a9d-v9f8e9d96c85c85a605e382f1510bd08563afc566",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 1619,
+        "steps": 13,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 107608
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-8cd06741bb56cdca49f5cdc0542da97681154315-v5149fcda2a9a6fe1d35dfed1bade1444a11ef271",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 5147,
+        "steps": 55,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 809163
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-deeb15d6f009b3ca0c3bd503a7cef07462bd16b4-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 6105,
+        "steps": 15,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 189817
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-ed19d7f58b2664bb310c7cb6b52c5b9a06ea60b2-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 3107,
+        "steps": 17,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 150484
+      },
+      {
+        "id": "instance_tutao__tutanota-09c2776c0fce3db5c6e18da92b5a45dce9f013aa-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 193,
+        "steps": 23,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 785523
+      },
+      {
+        "id": "instance_tutao__tutanota-12a6cbaa4f8b43c2f85caca0787ab55501539955-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 25692,
+        "steps": 19,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 599407
+      },
+      {
+        "id": "instance_tutao__tutanota-1ff82aa365763cee2d609c9d19360ad87fdf2ec7-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 118037,
+        "steps": 28,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 871443
+      },
+      {
+        "id": "instance_tutao__tutanota-8513a9e8114a8b42e64f4348335e0f23efa054c4-vee878bb72091875e912c52fc32bc60ec3760227b",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 550,
+        "steps": 12,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 40770
+      },
+      {
+        "id": "instance_tutao__tutanota-b4934a0f3c34d9d7649e944b183137e8fad3e859-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+        "resolved": true,
+        "has_patch": true,
+        "patch_size": 19103,
+        "steps": 29,
+        "exit_status": "submitted (exit_format)",
+        "tokens_sent": 848177
+      },
+      {
+        "id": "instance_tutao__tutanota-fe240cbf7f0fdd6744ef7bef8cb61676bcdbb621-vc4e41fd0029957297843cb9dec4a25c7c756f029",
+        "resolved": false,
+        "has_patch": true,
+        "patch_size": 68614,
+        "steps": 43,
+        "exit_status": "submitted (exit_forfeit)",
+        "tokens_sent": 1576105
+      }
+    ],
+    "forfeit": [
+      {
+        "id": "instance_NodeBB__NodeBB-0e07f3c9bace416cbab078a30eae972868c0a8a3-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 28,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 843434
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-1ea9481af6125ffd6da0592ed439aa62af0bca11-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 20,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 565589
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-51d8f3b195bddb13a13ddc0de110722774d9bb1b-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 10,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 252427
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-6489e9fd9ed16ea743cc5627f4d86c72fbdb3a8a-v2c59007b1005cd5cd14cbb523ca5229db1fd2dd8",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 29,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 793367
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-82562bec444940608052f3e4149e0c61ec80bf3f-vd59a5728dfc977f44533186ace531248c2917516",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 21,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 159342
+      },
+      {
+        "id": "instance_NodeBB__NodeBB-f1a80d48cc45877fcbadf34c2345dd9709722c7f-v4fbcfae8b15e4ce5d132c408bca69ebb9cf146ed",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 34,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 306652
+      },
+      {
+        "id": "instance_ansible__ansible-5d253a13807e884b7ce0b6b57a963a45e2f0322c-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 8,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 181495
+      },
+      {
+        "id": "instance_ansible__ansible-b8025ac160146319d2b875be3366b60c852dd35d-v0f01c69f1e2528b935359cfe578530722bca2c59",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 20,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 128125
+      },
+      {
+        "id": "instance_ansible__ansible-de5858f48dc9e1ce9117034e0d7e76806f420ca8-v1055803c3a812189a1133297f7f5468579283f86",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 36,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 465336
+      },
+      {
+        "id": "instance_element-hq__element-web-1077729a19c0ce902e713cf6fab42c91fb7907f1-vnan",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 2,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 2496
+      },
+      {
+        "id": "instance_element-hq__element-web-5dfde12c1c1c0b6e48f17e3405468593e39d9492-vnan",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 44,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 1638321
+      },
+      {
+        "id": "instance_element-hq__element-web-d405160080bbe804f7e9294067d004a7d4dad9d6-vnan",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 8,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 17712
+      },
+      {
+        "id": "instance_flipt-io__flipt-36e62baffae2132f78f9d34dc300a9baa2d7ae0e",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 19,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 162256
+      },
+      {
+        "id": "instance_flipt-io__flipt-5aef5a14890aa145c22d864a834694bae3a6f112",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 31,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 317868
+      },
+      {
+        "id": "instance_flipt-io__flipt-6fd0f9e2587f14ac1fdd1c229f0bcae0468c8daa",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 20,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 84101
+      },
+      {
+        "id": "instance_flipt-io__flipt-9d25c18b79bc7829a6fb08ec9e8793d5d17e2868",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 12,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 104925
+      },
+      {
+        "id": "instance_flipt-io__flipt-b2cd6a6dd73ca91b519015fd5924fde8d17f3f06",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 13,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 41000
+      },
+      {
+        "id": "instance_flipt-io__flipt-c1728053367c753688f114ec26e703c8fdeda125",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 9,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 51855
+      },
+      {
+        "id": "instance_flipt-io__flipt-dbe263961b187e1c5d7fe34c65b000985a2da5a0",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 15,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 148698
+      },
+      {
+        "id": "instance_future-architect__vuls-61c39637f2f3809e1b5dad05f0c57c799dce1587",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 106362
+      },
+      {
+        "id": "instance_future-architect__vuls-7eb77f5b5127c847481bcf600b4dca2b7a85cf3e",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 14,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 58045
+      },
+      {
+        "id": "instance_future-architect__vuls-83bcca6e669ba2e4102f26c4a2b52f78c7861f1a",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 62689
+      },
+      {
+        "id": "instance_future-architect__vuls-9aa0d87a21bede91c2b45c32187456bb69455e92",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 10,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 110052
+      },
+      {
+        "id": "instance_future-architect__vuls-dc496468b9e9fb73371f9606cdcdb0f8e12e70ca",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 2,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 2198
+      },
+      {
+        "id": "instance_future-architect__vuls-e6c0da61324a0c04026ffd1c031436ee2be9503a",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 2,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 1278
+      },
+      {
+        "id": "instance_gravitational__teleport-0ac7334939981cf85b9591ac295c3816954e287e",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 19,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 121085
+      },
+      {
+        "id": "instance_gravitational__teleport-59d39dee5a8a66e5b8a18a9085a199d369b1fba8-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 13,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 370752
+      },
+      {
+        "id": "instance_gravitational__teleport-e6681abe6a7113cfd2da507f05581b7bdf398540-v626ec2a48416b10a88641359a169d99e935ff037",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 14,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 438753
+      },
+      {
+        "id": "instance_internetarchive__openlibrary-11838fad1028672eb975c79d8984f03348500173-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 11,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 290482
+      },
+      {
+        "id": "instance_navidrome__navidrome-10108c63c9b5bdf2966ffb3239bbfd89683e37b7",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 14,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 35120
+      },
+      {
+        "id": "instance_navidrome__navidrome-d0dceae0943b8df16e579c2d9437e11760a0626a",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 26,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 892658
+      },
+      {
+        "id": "instance_protonmail__webclients-428cd033fede5fd6ae9dbc7ab634e010b10e4209",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 9,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 209355
+      },
+      {
+        "id": "instance_protonmail__webclients-4817fe14e1356789c90165c2a53f6a043c2c5f83",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 22,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 812558
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-5fdc83e5da6222fe61163395baaad7ae57fa2cb4-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 17,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 145022
+      },
+      {
+        "id": "instance_qutebrowser__qutebrowser-85b867fe8d4378c8e371f055c70452f546055854-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 11,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 20833
+      },
+      {
+        "id": "instance_tutao__tutanota-de49d486feef842101506adf040a0f00ded59519-v10a26bfb45a064b93f4fc044a0254925037b88f1",
+        "resolved": null,
+        "has_patch": false,
+        "patch_size": 0,
+        "steps": 16,
+        "exit_status": "exit_forfeit",
+        "tokens_sent": 33011
+      }
+    ]
+  }
+}

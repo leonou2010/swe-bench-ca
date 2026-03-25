@@ -1,0 +1,121 @@
+{
+  "instances_total": 200,
+  "instances_with_patches": 178,
+  "instances_empty_patches": 22,
+  "instances_evaluated": 176,
+  "instances_resolved": 112,
+  "accuracy_pct": 63.6,
+  "steps": {
+    "mean": 72.6,
+    "median": 69,
+    "min": 21,
+    "max": 298,
+    "p25": 51,
+    "p75": 87,
+    "total": 14514
+  },
+  "steps_solved": {
+    "mean": 66.0,
+    "median": 60,
+    "count": 112
+  },
+  "steps_failed": {
+    "mean": 81.0,
+    "median": 79,
+    "count": 88
+  },
+  "execution_time": {
+    "total_s": 17643.3,
+    "avg_per_instance_s": 88.2,
+    "avg_per_step_s": 1.216
+  },
+  "wall_clock": {
+    "total_hours": 8.83,
+    "avg_per_instance_min": 2.6
+  },
+  "api_calls": {
+    "total_steps": 14514,
+    "avg_per_instance": 72.6,
+    "estimated_tokens_total": 29028000,
+    "estimated_cost_usd": 726.0
+  },
+  "per_repo": [
+    {
+      "repo": "internetarchive",
+      "total": 27,
+      "solved": 17,
+      "accuracy_pct": 63.0,
+      "avg_steps": 79.4
+    },
+    {
+      "repo": "flipt/io",
+      "total": 25,
+      "solved": 11,
+      "accuracy_pct": 44.0,
+      "avg_steps": 77.6
+    },
+    {
+      "repo": "ansible",
+      "total": 22,
+      "solved": 11,
+      "accuracy_pct": 50.0,
+      "avg_steps": 77.6
+    },
+    {
+      "repo": "gravitational",
+      "total": 22,
+      "solved": 15,
+      "accuracy_pct": 68.2,
+      "avg_steps": 65.0
+    },
+    {
+      "repo": "qutebrowser",
+      "total": 20,
+      "solved": 14,
+      "accuracy_pct": 70.0,
+      "avg_steps": 55.6
+    },
+    {
+      "repo": "element/hq",
+      "total": 18,
+      "solved": 6,
+      "accuracy_pct": 33.3,
+      "avg_steps": 63.9
+    },
+    {
+      "repo": "NodeBB",
+      "total": 17,
+      "solved": 12,
+      "accuracy_pct": 70.6,
+      "avg_steps": 84.5
+    },
+    {
+      "repo": "future/architect",
+      "total": 16,
+      "solved": 10,
+      "accuracy_pct": 62.5,
+      "avg_steps": 76.2
+    },
+    {
+      "repo": "protonmail",
+      "total": 14,
+      "solved": 5,
+      "accuracy_pct": 35.7,
+      "avg_steps": 66.0
+    },
+    {
+      "repo": "navidrome",
+      "total": 12,
+      "solved": 6,
+      "accuracy_pct": 50.0,
+      "avg_steps": 77.8
+    },
+    {
+      "repo": "tutao",
+      "total": 7,
+      "solved": 5,
+      "accuracy_pct": 71.4,
+      "avg_steps": 73.3
+    }
+  ]
+}
