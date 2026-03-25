@@ -18,7 +18,7 @@ Claude Haiku 4.5 on the same 200 SWE-bench Pro instances. Baseline vs ultra-caut
 | Avg steps | 87 | 86 |
 | Ran real tests (pytest/go test/npm test) | 98% | 96% |
 | Avg test runs per instance | 10.2 | 10.8 |
-| Cost | $83.88 | $82.31 |
+| Cost | $109.96 | $107.65 |
 
 Since Haiku submits on all 200 instances in both conditions, the conditional accuracy equals the unconditional accuracy.
 
@@ -130,10 +130,10 @@ No systematic pattern — some repos improve, some regress. Variation is consist
 | | Baseline | CA |
 |---|---|---|
 | Total tokens sent | ~2.1B | ~2.0B |
-| Est. cost (95% cache) | $83.88 | $82.31 |
-| Cost per correct | $0.78 | $0.82 |
+| Est. cost (95% cache) | $109.96 | $107.65 |
+| Cost per correct | $1.03 | $1.08 |
 
-Haiku is ~16x more expensive per run than nano ($83 vs $5) because it uses 2x more steps and costs 4x more per token.
+Haiku is ~20x more expensive per run than nano ($110 vs $5) because it uses 2x more steps and costs 4x more per token.
 
 ### 7. The CA Non-Effect
 

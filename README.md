@@ -89,7 +89,7 @@ python3 -m http.server 8888
 | **Correct (out of 200)** | **107 (53.5%)** | **100 (50.0%)** |
 | Forfeits | 0 | 0 |
 | Ran real tests | 98% | 96% |
-| Cost | $83.88 | $82.31 |
+| Cost | $109.96 | $107.65 |
 
 Haiku completely ignores the CA prompt — 0 forfeits, no behavior change. Consistent with Anthropic models in the math experiments.
 
