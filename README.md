@@ -6,7 +6,7 @@ Extending our consequence asymmetry research from math (Omni-MATH) to software e
 
 ### Opus 4.6 Baseline (exp1)
 - 200 SWE-bench Pro instances, swe-agent framework
-- **62.9% accuracy** (112/178 evaluated)
+- **56.0% accuracy** (112/200, 178 produced patches, 22 empty)
 - Avg 73 steps per instance, ~$500 cost
 
 ### GPT-5.4-nano: Baseline vs Ultra-Cautious (exp3 vs exp5)
@@ -32,7 +32,7 @@ The CA prompt makes the model forfeit on 58% of instances. When it does submit, 
 └── swerex_docker_exec_patch.py  ← Our Docker deployment patch
 
 2_opus_baseline/
-├── REPORT.md                    ← Opus 4.6 results (62.9%)
+├── REPORT.md                    ← Opus 4.6 results (56.0%)
 ├── data/eval_results.json       ← Per-instance pass/fail
 ├── data/compute_analysis.json   ← Cost and compute stats
 └── configs/run_all.sh           ← Reproducible pipeline script

@@ -9,8 +9,9 @@
 | Instances run | 200 (shuffled, seed=0) |
 | Patches produced | 178 (89%) |
 | Empty patches | 22 (11%) |
-| Evaluated | 178 |
-| **Resolved** | **112 (62.9%)** |
+| Evaluated (had patches) | 178 |
+| **Resolved** | **112/200 (56.0%)** |
+| Resolved / evaluated | 112/178 (62.9%) |
 | Total wall-clock | 8h 50m |
 | Workers | 3 |
 | Estimated API cost | ~$726 |
@@ -19,7 +20,7 @@
 
 | Model | Paper (Opus 4.1) | Ours (Opus 4.6) |
 |---|---|---|
-| Resolve rate | 22.7% | **62.9%** |
+| Resolve rate | 22.7% | **56.0%** (112/200) |
 | Max turns | 200 | unlimited |
 | Scaffold | SWE-Agent (Modal) | SWE-Agent (docker exec patch) |
 | N | 731 | 200 |
