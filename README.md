@@ -18,7 +18,7 @@ Extending our consequence asymmetry research from math (Omni-MATH) to software e
 | Accuracy on intentional | 31.9% | **61.4%** |
 | Forfeit attempts | 2 (1%) | 117 (58%) |
 | Forfeit accuracy (ground truth) | — | 85% (69/81 correct to forfeit) |
-| Cost | $5.30 | $3.53 |
+| Cost | $5.41 | $3.53 |
 
 The CA prompt makes the model forfeit on 58% of instances. When it does submit, accuracy nearly doubles. But it solves fewer total problems.
 

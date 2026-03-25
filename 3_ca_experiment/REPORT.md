@@ -21,12 +21,12 @@ Same model (GPT-5.4-nano), same 200 instances. One paragraph prepended to the sy
  └── 10  format error without code                        → nothing to evaluate
 ```
 
-For comparison, the baseline (note: `exit_forfeit` was not available as a working tool in this run):
+For comparison, the baseline (`exit_forfeit` not available as a working tool — see setup note below):
 ```
 200 instances
  ├── 148 intentional submit                               → 46 correct (31.9%)  [144 evaluated]
- ├── 50  format error (auto-submitted)                    → 8 correct (21.6%)   [37 evaluated]
- └── 2   forfeit attempts (exit_forfeit failed as "command not found", model continued)
+ ├── 52  format error (auto-submitted)                    → 8 correct (21.6%)   [37 evaluated]
+ └── 2   forfeit attempts (exit_forfeit failed, model continued and submitted)
 ```
 
 ### The headline numbers
@@ -39,7 +39,7 @@ For comparison, the baseline (note: `exit_forfeit` was not available as a workin
 | Total forfeit attempts | 2 (1%) | 117 (58%) |
 | Forfeit with code (ground truth) | — | 81 (85% right to forfeit) |
 | No code produced (forfeit + format) | 19 | 46 |
-| Cost | $5.30 | $3.53 |
+| Cost | $5.41 | $3.53 |
 
 All accuracy numbers in this report use **200 as the denominator** unless otherwise noted.
 
@@ -117,8 +117,8 @@ Baseline comparison (note: `exit_forfeit` not available as working tool):
 | Category | exp3 count | exp3 evaluated | exp3 accuracy |
 |---|---|---|---|
 | Intentional submit | 148 | 144 | 31.9% |
-| Format error | 50 | 37 | 21.6% |
-| Forfeit attempts (failed) | 2 | 0 | — |
+| Format error | 52 | 37 | 21.6% |
+| Forfeit attempts (failed, not a working tool) | 2 | 0 | — |
 | **All evaluated** | — | **181** | **29.8%** |
 
 ---
@@ -156,42 +156,32 @@ These represent the cost of the CA prompt — 12 correct patches abandoned becau
 
 The 81 forfeit-with-code instances fall into distinct patterns based on what the model was doing in the final steps before forfeiting:
 
+Classification is based on the model's last 5 steps before the auto-submission, with one override: if the model called `submit` at **any point** in the trajectory, it's classified as "submitted then forfeit" regardless of what happened in the final steps. See `data/classify_forfeits.py` for the exact rules.
+
 | Pattern | Count | What happened |
 |---|---|---|
-| **Exploring → forfeit** | 43 | Model was still reading code (grep, find, cat). Made some edits earlier but was still investigating. Decided it couldn't finish confidently. |
-| **Edit failed → forfeit** | 13 | Model tried `str_replace` but it didn't match. Retried, failed again. Gave up instead of attempting another approach. |
-| **Submitted → saw diff → forfeit** | 12 | Model called `submit`, saw the review message with its full diff, decided the patch wasn't good enough, and forfeited instead of confirming. |
-| **Empty actions → forfeit** | 11 | Model produced empty/unparseable outputs (hesitating), then forfeited. |
-| **Other** | 2 | — |
-
-**Pattern 1: Exploring → forfeit (43 instances).** The model reads code, searches for relevant files, makes some edits along the way, but never reaches the point of feeling confident enough to submit. Most of these have few successful edits (0-2) relative to the amount of searching (10-30 grep/find/cat calls). The model is doing the work but can't converge on a solution. Example: `protonmail-ac23d1ef` — 39 searches, 1 edit (failed), 0 tests, 0 submits, forfeited at step 59.
-
-**Pattern 2: Edit failed → forfeit (13 instances).** The model knows what it wants to change but `str_replace` doesn't match (whitespace, indentation, wrong context). After 1-3 failed edits it gives up rather than trying a different approach. Example: `NodeBB-05f2236` — 9 failed str_replace attempts across 71 steps, never got a single edit to land.
-
-**Pattern 3: Submitted → saw diff → forfeit (12 instances).** The most interesting pattern. The model went through the entire process — explored, edited, called `submit`, saw its own diff in the review message — then decided the patch wasn't good enough and forfeited instead of confirming. This is the two-stage submit mechanism working as a genuine self-review checkpoint, amplified by the CA framing. Example: `NodeBB-22368` — edited, submitted, saw the review diff, forfeited at step 12.
-
-**Pattern 4: Empty actions → forfeit (11 instances).** The model hesitates — produces empty or unparseable output 2+ times in a row. Rather than being kicked out by format error limits, it calls `exit_forfeit`. These may be instances where the CA framing causes the model to "freeze up."
+| **Exploring → forfeit** | 45 | Model was still reading code (grep, find, cat). Made some edits earlier but was still investigating. |
+| **Submitted → saw diff → forfeit** | 13 | Model called `submit` at some point, then later forfeited. |
+| **Edit failed → forfeit** | 12 | `str_replace` didn't match in the final steps. Model gave up. |
+| **Empty actions → forfeit** | 11 | Model produced empty/unparseable outputs, then forfeited. |
 
 **Ground truth by pattern:**
 
 | Pattern | Count | Would-pass | Would-fail | Forfeit accuracy |
 |---|---|---|---|---|
-| Exploring → forfeit | 43 | 7 | 36 | 84% |
-| Edit failed → forfeit | 13 | 4 | 9 | 69% |
-| Submitted → saw diff → forfeit | 12 | 0 | 12 | **100%** |
+| Exploring → forfeit | 45 | 7 | 38 | 84% |
+| Submitted → forfeit | 13 | 1 | 12 | 92% |
+| Edit failed → forfeit | 12 | 3 | 9 | 75% |
 | Empty actions → forfeit | 11 | 1 | 10 | 91% |
-| Other | 2 | 0 | 2 | 100% |
 | **Total** | **81** | **12** | **69** | **85%** |
 
-The "submitted → saw diff → forfeit" pattern has **100% accuracy** — every time the model went through submit review and then backed out, the patch would have failed. The self-review mechanism works perfectly as a quality gate under CA framing: the model sees its own diff, realizes it's wrong, and walks away.
+The "submitted then forfeit" pattern has 92% accuracy (12/13). The one false negative (NodeBB-f9ce92d) called submit, continued exploring, and then forfeited — its patch would have passed.
 
-The "edit failed → forfeit" pattern has the lowest accuracy (69%) — the model gives up too easily when `str_replace` doesn't match. 4 of these 13 had patches that would have passed despite the edit failures (earlier successful edits were enough).
-
-The 7 false negatives in "exploring → forfeit" are the biggest loss — the model made some edits, kept searching, lost confidence, and forfeited. But the edits it already made were actually correct.
+The "edit failed" pattern has the lowest accuracy (75%) — 3 of 12 had patches that would have passed despite the edit failures in the final steps (earlier successful edits were enough).
 
 ### Why doesn't the model just test its patch?
 
-The swe-agent instructions tell the model to create a reproduction script and verify its fix. Under baseline, 88% of instances run tests (avg 3.3 tests/instance). Under ultra_cautious, only 68% do (avg 2.1). The CA framing suppresses verification.
+The swe-agent instructions tell the model to create a reproduction script and verify its fix. Under baseline, 88% of instances execute some form of script (including ad-hoc python/node commands). Using a strict definition (only `pytest`, `go test`, `npm test`, `make test`), the rate is lower. The CA framing reduces script execution overall, but exact rates depend on definition.
 
 Of the 12 false negatives (forfeited but would have passed):
 
@@ -265,7 +255,7 @@ Key observations:
 | Min | 4 | 14 | 13 | 2 | 16 | 2 |
 | Max | 173 | 79 | 173 | 100 | 100 | 73 |
 
-Solved instances are faster than failed ones in both experiments. Forfeits average 26 steps — less than submissions but not trivial (the model does explore before giving up).
+**Note:** "Solved" and "Failed" here refer to **intentional submissions only** (exit_status=`submitted`). exp3 Solved = 46 instances, exp3 Failed = 102. exp5 Solved = 27, exp5 Failed = 17. Format errors and forfeits are excluded from these columns.
 
 #### Milestones: when does the model first search, edit, submit?
 
@@ -302,23 +292,17 @@ The phase patterns are remarkably similar — the model follows the same explore
 
 ---
 
-### 8. CA Awareness in Model Thoughts
+### 8. CA Awareness
 
-The model explicitly references the CA framing in its reasoning. Examples from the trajectories:
+GPT-5.4-nano uses function calling mode, which produces structured tool calls with no free-text reasoning. The model's "thoughts" are not stored in the trajectory — the `thought` field is nearly always empty, and the `response` field contains only tool call JSON. We cannot directly observe the model's reasoning about the CA framing from the stored data.
 
-> *"Because the instructions require avoiding any incorrect fix (catastrophic consequences if wrong), I can't confidently submit this as-is"*
+Evidence of CA awareness comes from the behavioral difference: 117 forfeits (58%) vs 2 in baseline. The model forfeits more, submits less, and is more accurate when it does submit. But we cannot quote the model's internal reasoning.
 
-> *"Given your 'catastrophic consequences if any fix is wrong' constraint, I won't guess"*
-
-> *"I'm not confident I can produce a correct minimal fix... I'm stopping here rather than guessing"*
-
-> *"Because the instruction says never guess and 'not getting a single fix wrong can have catastrophic consequences', I'm stopping here"*
-
-81 out of 117 forfeit instances (69%) have explicit CA-related language in the model's thoughts (`confident`, `catastroph`, `forfeit`, `not sure`).
+**Note:** An earlier version of this report contained quotes attributed to the model's thoughts. Those quotes came from a previous experiment run that used a different configuration where the model produced free text. They do not exist in the current trajectory data and have been removed.
 
 ---
 
-### 7. Comparison: Math vs SWE
+### 9. Comparison: Math vs SWE
 
 | Domain | Model | Prompt | Abstention rate | Accuracy (attempted) |
 |---|---|---|---|---|
@@ -333,7 +317,7 @@ The SWE agent setting produces **dramatically higher abstention** than math. In 
 
 ---
 
-### 8. Cost
+### 10. Cost
 
 | | exp3 | exp5 |
 |---|---|---|
@@ -345,7 +329,7 @@ Ultra-cautious is **cheaper** because forfeits exit early.
 
 ---
 
-### 9. Counting all correct patches
+### 11. Counting all correct patches
 
 The 47 correct patches in exp5 come from three sources:
 
@@ -362,7 +346,7 @@ The 36 clean forfeits (no code) are unknowable — the model didn't try, so we c
 
 ---
 
-### 10. Broken vs Fixed Comparison
+### 12. Broken vs Fixed Comparison
 
 The earlier exp5 run had `exit_forfeit` broken (`command not found`). This table shows how infrastructure bugs change results:
 

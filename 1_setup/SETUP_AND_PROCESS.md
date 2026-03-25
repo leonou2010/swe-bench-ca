@@ -285,13 +285,13 @@ swe-agent communicates with containers through **swerex**, a small HTTP server i
 
 Two replacement classes that bypass swerex entirely:
 
-**`DockerExecRuntime._docker_exec()`** (line 61) — every command runs via `docker exec`:
+**`DockerExecRuntime._docker_exec()`** (line ~69) — every command runs via `docker exec`:
 
 ```python
 def _docker_exec(self, cmd, timeout=30):
     setup = (
         'export PATH="/root/tools/registry/bin:/root/tools/edit_anthropic/bin:'
-        '/root/tools/review_on_submit_m/bin:$PATH"; '
+        '/root/tools/review_on_submit_m/bin:/root/tools/forfeit/bin:$PATH"; '
         'export PYTHONPATH="/root/registry_shim:/root/tools/registry/lib:$PYTHONPATH"; '
         'export ROOT=/app; '
     )
@@ -307,12 +307,12 @@ The `setup` string prepended to every command sets:
 - `PYTHONPATH` — registry shim + tool libraries so `from registry import registry` works
 - `ROOT=/app` — repository location for the submit tool
 
-**`DockerExecDeployment.start()`** (line 217) — container lifecycle:
+**`DockerExecDeployment.start()`** (line ~266) — container lifecycle:
 
 ```python
 async def start(self):
     cmds = ["docker", "run", "--rm", "-d",
-            "--cpus=4", "--memory=8g",
+            "--cpus=4", "--memory=8g",  # Note: source code now reads 4g, but experiments ran with 8g
             "--entrypoint", "/bin/bash",
             "--name", self._container_name,
             image_id, "-c", "sleep 99999"]
@@ -425,7 +425,9 @@ agent:
         You are a helpful assistant that can interact with a computer to solve tasks.
 ```
 
-Everything else held constant: same `instance_template`, same tools, same `SUBMIT_REVIEW_MESSAGES`, same `parse_function`, same `history_processors`. See `config/default.yaml` for the full shared config. The prefix adapts the math experiment's `ultra_cautious` prompt (`omni-math-rule-ca/inference/prompts.py`), replacing `\boxed{UNSURE}` with `exit_forfeit` and "answer" with "fix."
+**Beyond the prompt, one other change:** The ultra-cautious config adds `- path: tools/forfeit` to the tool bundles, which registers `exit_forfeit` as a callable tool. The baseline config does not load this bundle. This means the treatment group has a tool the control group lacks — a confound worth noting. The baseline model can still discover `exit_forfeit` through format error messages, but it is not registered as a named tool.
+
+All other parameters are held constant: same `instance_template`, same `SUBMIT_REVIEW_MESSAGES`, same `parse_function`, same `history_processors`. See `swe_agent_default_config.yaml` for the full shared config. The prefix adapts the math experiment's `ultra_cautious` prompt (`omni-math-rule-ca/inference/prompts.py`), replacing `\boxed{UNSURE}` with `exit_forfeit` and "answer" with "fix."
 
 ---
 
