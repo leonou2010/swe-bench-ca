@@ -4,9 +4,21 @@ Extending our consequence asymmetry research from math (Omni-MATH) to software e
 
 ## Results at a Glance
 
+### Primary metric: when the model intentionally submits, how often is it correct?
+
+| Model | Intentional Submits | Correct | **Accuracy** | Forfeits |
+|---|---|---|---|---|
+| Opus 4.6 | 178 | 112 | **62.9%** | 0 |
+| Haiku baseline | 200 | 107 | **53.5%** | 0 |
+| Haiku CA | 200 | 100 | **50.0%** | 0 |
+| Nano baseline | 144 | 46 | **31.9%** | 0 |
+| **Nano CA** | **44** | **27** | **61.4%** | **117** |
+
+Under the CA prompt, GPT-5.4-nano's intentional submit accuracy (61.4%) approaches Opus-level (62.9%) — but it only submits on 44/200 instances, forfeiting the rest. Haiku shows no response to the CA prompt at all.
+
 ### Opus 4.6 Baseline (exp1)
 - 200 SWE-bench Pro instances, swe-agent framework
-- **56.0% accuracy** (112/200, 178 produced patches, 22 empty)
+- 112/200 correct (56.0%), 178 produced patches
 - Avg 73 steps per instance, ~$500 cost
 
 ### GPT-5.4-nano: Baseline vs Ultra-Cautious (exp3 vs exp5)
