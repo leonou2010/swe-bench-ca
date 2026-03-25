@@ -70,9 +70,21 @@ python3 -m http.server 8888
 # Open http://localhost:8888/viewer/
 ```
 
+### Haiku 4.5: Baseline vs Ultra-Cautious
+
+| | Baseline | Ultra-Cautious |
+|---|---|---|
+| **Correct (out of 200)** | **107 (53.5%)** | **100 (50.0%)** |
+| Forfeits | 0 | 0 |
+| Ran real tests | 98% | 96% |
+| Cost | $83.88 | $82.31 |
+
+Haiku completely ignores the CA prompt — 0 forfeits, no behavior change. Consistent with Anthropic models in the math experiments.
+
 ## Reading Order
 
 1. `1_setup/SETUP_AND_PROCESS.md` — How the benchmark and agent work (Part I: 5 min, Part II: 30 min)
 2. `2_opus_baseline/REPORT.md` — Opus 4.6 baseline results
-3. `3_ca_experiment/REPORT.md` — The CA experiment: baseline vs ultra-cautious
-4. `viewer/` — Browse individual trajectories
+3. `3_ca_experiment/REPORT.md` — GPT-5.4-nano CA experiment
+4. `4_haiku_experiment/REPORT.md` — Haiku 4.5 CA experiment
+5. `viewer/` — Browse individual trajectories
