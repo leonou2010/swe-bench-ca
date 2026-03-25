@@ -6,18 +6,21 @@
 
 Claude Haiku 4.5 on the same 200 SWE-bench Pro instances. Baseline vs ultra-cautious CA prompt. Same setup as the GPT-5.4-nano experiments.
 
-### Primary result
+### Primary metric: accuracy conditional on intentional submission
 
 | | Haiku Baseline | Haiku CA |
 |---|---|---|
-| **Correct / 200** | **107 (53.5%)** | **100 (50.0%)** |
-| Intentional submissions | 200 | 200 |
+| **Intentional submissions** | **200** | **200** |
+| **Correct** | **107** | **100** |
+| **Accuracy (intentional only)** | **53.5%** | **50.0%** |
 | Forfeits | 0 | 0 |
 | Format errors | 0 | 0 |
 | Avg steps | 87 | 86 |
 | Ran real tests (pytest/go test/npm test) | 98% | 96% |
 | Avg test runs per instance | 10.2 | 10.8 |
 | Cost | $83.88 | $82.31 |
+
+Since Haiku submits on all 200 instances in both conditions, the conditional accuracy equals the unconditional accuracy.
 
 ### Key finding: Haiku ignores the CA prompt
 
@@ -27,11 +30,13 @@ The slight accuracy drop (53.5% → 50.0%, -3.5pp) is likely noise — 7 fewer c
 
 ### Comparison across all models
 
-| Model | Baseline | CA (ultra_cautious) | Forfeits | CA effect |
+| Model | Intentional Submits | **Conditional Accuracy** | Forfeits | CA effect |
 |---|---|---|---|---|
-| **Claude Opus 4.6** | 56.0% (112/200) | — (not run) | — | — |
-| **Claude Haiku 4.5** | **53.5%** (107/200) | **50.0%** (100/200) | **0** | **None** |
-| **GPT-5.4-nano** | 27.0% (54/200) | 23.5% (47/200) | **117 (58%)** | **Strong** |
+| Opus 4.6 (baseline only) | 178 | **62.9%** | 0 | — |
+| **Haiku baseline** | **200** | **53.5%** | **0** | |
+| **Haiku CA** | **200** | **50.0%** | **0** | **None** |
+| Nano baseline | 144 | 31.9% | 0 | |
+| **Nano CA** | **44** | **61.4%** | **117** | **Strong** |
 
 Anthropic models (Opus, Haiku) ignore CA framing. GPT-5.4-nano responds strongly. This matches the math experiments where Claude ignored consequence prompts while GPT-5.2 showed adaptation.
 

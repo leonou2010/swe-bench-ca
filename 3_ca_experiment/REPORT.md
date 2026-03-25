@@ -29,19 +29,19 @@ For comparison, the baseline (`exit_forfeit` not available as a working tool —
  └── 2   forfeit attempts (exit_forfeit failed, model continued and submitted)
 ```
 
-### The headline numbers
+### Primary metric: accuracy conditional on intentional submission
 
 | | Baseline (exp3) | Ultra-Cautious (exp5) |
 |---|---|---|
-| **Total problems solved (out of 200)** | **54 (27.0%)** | **47 (23.5%)** |
-| Intentional submissions | 144 evaluated | 44 evaluated |
-| Accuracy on intentional | 31.9% | **61.4%** |
-| Total forfeit attempts | 2 (1%) | 117 (58%) |
+| **Intentional submissions** | **144** | **44** |
+| **Correct** | **46** | **27** |
+| **Accuracy (intentional only)** | **31.9%** | **61.4%** |
+| Forfeits | 2 (1%) | 117 (58%) |
+| Total correct / 200 | 54 (27.0%) | 47 (23.5%) |
 | Forfeit with code (ground truth) | — | 81 (85% right to forfeit) |
-| No code produced (forfeit + format) | 19 | 46 |
 | Cost | $5.41 | $3.53 |
 
-All accuracy numbers in this report use **200 as the denominator** unless otherwise noted.
+When the model **chooses to submit**, accuracy nearly doubles under the CA prompt (61.4% vs 31.9%). But it only submits on 44/200 instances, forfeiting the rest. Total problems solved is lower (47 vs 54).
 
 ### Three findings
 
