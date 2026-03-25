@@ -111,19 +111,19 @@ Haiku runs real test suites on nearly every instance — **10x more testing than
 
 | Repository | N | Baseline | CA | Delta |
 |---|---|---|---|---|
-| qutebrowser | 20 | — | — | — |
-| ansible | 22 | — | — | — |
-| NodeBB | 17 | — | — | — |
-| element-hq | 18 | — | — | — |
-| internetarchive | 27 | — | — | — |
-| flipt-io | 25 | — | — | — |
-| gravitational | 22 | — | — | — |
-| future-architect | 16 | — | — | — |
-| protonmail | 14 | — | — | — |
-| navidrome | 12 | — | — | — |
-| tutao | 7 | — | — | — |
+| tutao | 7 | 5/7 (71%) | 4/7 (57%) | -14pp |
+| qutebrowser | 20 | 14/20 (70%) | 13/20 (65%) | -5pp |
+| navidrome | 12 | 8/12 (67%) | 6/12 (50%) | -17pp |
+| future-architect | 16 | 10/16 (62%) | 9/16 (56%) | -6pp |
+| NodeBB | 17 | 10/17 (59%) | 11/17 (65%) | +6pp |
+| ansible | 22 | 13/22 (59%) | 12/22 (55%) | -4pp |
+| protonmail | 14 | 8/14 (57%) | 7/14 (50%) | -7pp |
+| element-hq | 18 | 9/18 (50%) | 6/18 (33%) | -17pp |
+| internetarchive | 27 | 13/27 (48%) | 14/27 (52%) | +4pp |
+| flipt-io | 25 | 9/25 (36%) | 11/25 (44%) | +8pp |
+| gravitational | 22 | 8/22 (36%) | 7/22 (32%) | -4pp |
 
-*(To be filled with per-repo breakdown)*
+No systematic pattern — some repos improve, some regress. Variation is consistent with noise from a single run.
 
 ### 6. Cost
 
